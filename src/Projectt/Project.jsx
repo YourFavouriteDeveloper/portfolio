@@ -1,7 +1,7 @@
 import styles from './Project.module.css';
 import React, { useEffect, useRef, forwardRef } from 'react';
 import { motion, useInView, useAnimation } from 'framer-motion';
-
+import backvideo from '../assets/background-video.mp4';
 
 const Project = forwardRef((props, ref) => {
     const localRef = useRef(null);
@@ -46,7 +46,7 @@ const Project = forwardRef((props, ref) => {
                     <div className={styles.videoContainer}>
                         <video
                             className={styles.video}
-                            src="src/assets/background-video.mp4"
+                            src={backvideo}
                             autoPlay
                             loop
                             muted
