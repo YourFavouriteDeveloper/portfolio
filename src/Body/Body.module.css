@@ -93,3 +93,654 @@
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(-20px); }
 }
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1800px) {
+.container {
+  background-color: rgb(39, 39, 39);
+  height: 115vh; 
+  position: relative;
+  z-index: -3;
+  
+}
+
+.text {
+  position: relative;
+  z-index: 10;
+}
+
+.title {
+  margin: 0px;
+  color: rgb(238, 232, 220);         
+  font-size: 120px;
+  white-space: nowrap;
+  text-align: left;
+  padding-top: 18%;
+  padding-left: 40px;
+  text-shadow: 0px 0px 20px rgb(17, 17, 17);
+  font-family: 'PoppinsExtraLight';
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
+}
+
+.subtitle {
+  margin: -20px 0px;
+  color: rgb(238, 232, 220);         
+  font-size: 17px;
+  white-space: nowrap;
+  text-align: left;
+  padding-left: 60px;
+  text-shadow: 0px 0px 20px rgb(17, 17, 17);
+  font-family: 'PoppinsExtraLight';
+  z-index: 10;
+  pointer-events: auto;
+
+}
+
+
+
+
+.circle1 {
+  width: 1600px;
+  height: 1200px;
+  border-radius: 50%;
+  background: rgb(37, 37, 37);
+  position: absolute;
+  top: -45%;
+  left: -15%;
+  z-index: -4;
+  box-shadow: 0px 20px 20px rgb(27, 27, 27);
+
+
+}
+
+.circle2 {
+  width: 1400px;
+  height: 1200px;
+  border-radius: 50%;
+  background: rgb(37, 37, 37);
+  position: absolute;
+  top: -32%;
+  left: -12%;
+  z-index: -5;
+  box-shadow: 0px 20px 20px rgb(27, 27, 27);
+
+
+
+}
+
+.circle3 {
+  width: 1400px;
+  height: 1200px;
+  border-radius: 50%;
+  background: rgb(37, 37, 37);
+  position: absolute;
+  top: -20%;
+  left: -20%;
+  z-index: -6;
+  box-shadow: -0px 20px 20px rgb(27, 27, 27);
+
+
+}
+
+}
+
+
+@media (max-width: 1500px) {
+.container {
+  background-color: rgb(39, 39, 39);
+  height: 100vh; 
+  position: relative;
+  z-index: -3;
+  
+}
+
+.text {
+  position: relative;
+  z-index: 10;
+}
+
+.title {
+  margin: 0px;
+  color: rgb(238, 232, 220);         
+  font-size: 100px;
+  white-space: nowrap;
+  text-align: left;
+  padding-top: 20%;
+  padding-left: 40px;
+  text-shadow: 0px 0px 15px rgb(17, 17, 17);
+  font-family: 'PoppinsExtraLight';
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
+}
+
+.subtitle {
+  margin: -20px 0px;
+  color: rgb(238, 232, 220);         
+  font-size: 15px;
+  white-space: nowrap;
+  text-align: left;
+  padding-left: 60px;
+  text-shadow: 0px 0px 20px rgb(17, 17, 17);
+  font-family: 'PoppinsExtraLight';
+  z-index: 10;
+  pointer-events: auto;
+
+}
+
+
+
+
+.circle1 {
+  width: 1500px;
+  height: 1100px;
+  border-radius: 50%;
+  background: rgb(37, 37, 37);
+  position: absolute;
+  top: -50%;
+  left: -25%;
+  z-index: -4;
+  box-shadow: 0px 20px 20px rgb(27, 27, 27);
+
+
+}
+
+.circle2 {
+  width: 1300px;
+  height: 1100px;
+  border-radius: 50%;
+  background: rgb(37, 37, 37);
+  position: absolute;
+  top: -40%;
+  left: -20%;
+  z-index: -5;
+  box-shadow: 0px 20px 20px rgb(27, 27, 27);
+
+
+
+}
+
+.circle3 {
+  width: 1300px;
+  height: 1100px;
+  border-radius: 50%;
+  background: rgb(37, 37, 37);
+  position: absolute;
+  top: -32%;
+  left: -25%;
+  z-index: -6;
+  box-shadow: -0px 20px 20px rgb(27, 27, 27);
+
+
+}
+
+}
+
+
+@media (max-width: 1300px) {
+.container {
+  background-color: rgb(39, 39, 39);
+  height: 90vh; 
+  position: relative;
+  z-index: -3;
+  
+}
+
+.text {
+  position: relative;
+  z-index: 10;
+}
+
+.title {
+  margin: 0px;
+  color: rgb(238, 232, 220);         
+  font-size: 85px;
+  white-space: nowrap;
+  text-align: left;
+  padding-top: 22%;
+  padding-left: 40px;
+  text-shadow: 0px 0px 10px rgb(17, 17, 17);
+  font-family: 'PoppinsExtraLight';
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
+}
+
+.subtitle {
+  margin: -20px 0px;
+  color: rgb(238, 232, 220);         
+  font-size: 12px;
+  white-space: nowrap;
+  text-align: left;
+  padding-left: 60px;
+  text-shadow: 0px 0px 20px rgb(17, 17, 17);
+  font-family: 'PoppinsExtraLight';
+  z-index: 10;
+  pointer-events: auto;
+
+}
+
+
+
+
+.circle1 {
+  width: 1400px;
+  height: 1000px;
+  border-radius: 50%;
+  background: rgb(37, 37, 37);
+  position: absolute;
+  top: -55%;
+  left: -30%;
+  z-index: -4;
+  box-shadow: 0px 20px 20px rgb(27, 27, 27);
+
+
+}
+
+.circle2 {
+  width: 1200px;
+  height: 1000px;
+  border-radius: 50%;
+  background: rgb(37, 37, 37);
+  position: absolute;
+  top: -42%;
+  left: -25%;
+  z-index: -5;
+  box-shadow: 0px 20px 20px rgb(27, 27, 27);
+
+
+
+}
+
+.circle3 {
+  width: 1200px;
+  height: 1000px;
+  border-radius: 50%;
+  background: rgb(37, 37, 37);
+  position: absolute;
+  top: -32%;
+  left: -35%;
+  z-index: -6;
+  box-shadow: -0px 20px 20px rgb(27, 27, 27);
+
+
+}
+}
+
+@media (max-width: 1100px) {
+.container {
+  background-color: rgb(39, 39, 39);
+  height: 85vh; 
+  position: relative;
+  z-index: -3;
+  
+}
+
+.text {
+  position: relative;
+  z-index: 10;
+}
+
+.title {
+  margin: 0px;
+  color: rgb(238, 232, 220);         
+  font-size: 70px;
+  white-space: nowrap;
+  text-align: left;
+  padding-top: 25%;
+  padding-left: 40px;
+  text-shadow: 0px 0px 10px rgb(17, 17, 17);
+  font-family: 'PoppinsExtraLight';
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
+}
+
+.subtitle {
+  margin: -20px 0px;
+  color: rgb(238, 232, 220);         
+  font-size: 11px;
+  white-space: nowrap;
+  text-align: left;
+  padding-left: 60px;
+  text-shadow: 0px 0px 20px rgb(17, 17, 17);
+  font-family: 'PoppinsExtraLight';
+  z-index: 10;
+  pointer-events: auto;
+
+}
+
+
+
+
+.circle1 {
+  width: 1350px;
+  height: 950px;
+  border-radius: 50%;
+  background: rgb(37, 37, 37);
+  position: absolute;
+  top: -55%;
+  left: -30%;
+  z-index: -4;
+  box-shadow: 0px 20px 20px rgb(27, 27, 27);
+
+
+}
+
+.circle2 {
+  width: 1200px;
+  height: 950px;
+  border-radius: 50%;
+  background: rgb(37, 37, 37);
+  position: absolute;
+  top: -42%;
+  left: -25%;
+  z-index: -5;
+  box-shadow: 0px 20px 20px rgb(27, 27, 27);
+
+
+
+}
+
+.circle3 {
+  width: 1200px;
+  height: 950px;
+  border-radius: 50%;
+  background: rgb(37, 37, 37);
+  position: absolute;
+  top: -32%;
+  left: -35%;
+  z-index: -6;
+  box-shadow: -0px 20px 20px rgb(27, 27, 27);
+
+
+}
+}
+
+
+@media (max-width: 900px) {
+.container {
+  background-color: rgb(39, 39, 39);
+  height: 75vh; 
+  position: relative;
+  z-index: -3;
+  
+}
+
+.text {
+  position: relative;
+  z-index: 10;
+}
+
+.title {
+  margin: 0px;
+  color: rgb(238, 232, 220);         
+  font-size: 55px;
+  white-space: nowrap;
+  text-align: left;
+  padding-top: 28%;
+  padding-left: 40px;
+  text-shadow: 0px 0px 10px rgb(17, 17, 17);
+  font-family: 'PoppinsExtraLight';
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
+}
+
+.subtitle {
+  margin: -20px 0px;
+  color: rgb(238, 232, 220);  
+  padding-top: 10px;       
+  font-size: 9px;
+  white-space: nowrap;
+  text-align: left;
+  padding-left: 50px;
+  text-shadow: 0px 0px 20px rgb(17, 17, 17);
+  font-family: 'PoppinsExtraLight';
+  z-index: 10;
+  pointer-events: auto;
+
+}
+
+
+
+
+.circle1 {
+  width: 1250px;
+  height: 850px;
+  border-radius: 50%;
+  background: rgb(37, 37, 37);
+  position: absolute;
+  top: -55%;
+  left: -45%;
+  z-index: -4;
+  box-shadow: 0px 20px 20px rgb(27, 27, 27);
+
+
+}
+
+.circle2 {
+  width: 1100px;
+  height: 850px;
+  border-radius: 50%;
+  background: rgb(37, 37, 37);
+  position: absolute;
+  top: -42%;
+  left: -36%;
+  z-index: -5;
+  box-shadow: 0px 20px 20px rgb(27, 27, 27);
+
+
+
+}
+
+.circle3 {
+  width: 1100px;
+  height: 850px;
+  border-radius: 50%;
+  background: rgb(37, 37, 37);
+  position: absolute;
+  top: -32%;
+  left: -42%;
+  z-index: -6;
+  box-shadow: -0px 20px 20px rgb(27, 27, 27);
+
+
+}
+}
+
+
+@media (max-width: 650px) {
+.container {
+  background-color: rgb(39, 39, 39);
+  height: 65vh; 
+  position: relative;
+  z-index: -3;
+  
+}
+
+.text {
+  position: relative;
+  z-index: 10;
+}
+
+.title {
+  margin: 0px;
+  color: rgb(238, 232, 220);         
+  font-size: 45px;
+  white-space: nowrap;
+  text-align: left;
+  padding-top: 32%;
+  padding-left: 40px;
+  text-shadow: 0px 0px 10px rgb(17, 17, 17);
+  font-family: 'PoppinsExtraLight';
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
+}
+
+.subtitle {
+  margin: -20px 0px;
+  color: rgb(238, 232, 220);  
+  padding-top: 15px;       
+  font-size: 8px;
+  white-space: nowrap;
+  text-align: left;
+  padding-left: 45px;
+  text-shadow: 0px 0px 20px rgb(17, 17, 17);
+  font-family: 'PoppinsExtraLight';
+  z-index: 10;
+  pointer-events: auto;
+
+}
+
+
+
+
+.circle1 {
+  width: 1150px;
+  height: 750px;
+  border-radius: 50%;
+  background: rgb(37, 37, 37);
+  position: absolute;
+  top: -55%;
+  left: -80%;
+  z-index: -4;
+  box-shadow: 0px 20px 20px rgb(27, 27, 27);
+
+
+}
+
+.circle2 {
+  width: 1000px;
+  height: 750px;
+  border-radius: 50%;
+  background: rgb(37, 37, 37);
+  position: absolute;
+  top: -42%;
+  left: -66%;
+  z-index: -5;
+  box-shadow: 0px 20px 20px rgb(27, 27, 27);
+
+
+
+}
+
+.circle3 {
+  width: 1000px;
+  height: 750px;
+  border-radius: 50%;
+  background: rgb(37, 37, 37);
+  position: absolute;
+  top: -32%;
+  left: -72%;
+  z-index: -6;
+  box-shadow: -0px 20px 20px rgb(27, 27, 27);
+
+
+}
+
+}
+
+@media (max-width: 580px) {
+.container {
+  background-color: rgb(39, 39, 39);
+  height: 60vh; 
+  position: relative;
+  z-index: -3;
+  
+}
+
+.text {
+  position: relative;
+  z-index: 10;
+}
+
+.title {
+  margin: 0px;
+  color: rgb(238, 232, 220);         
+  font-size: 40px;
+  white-space: nowrap;
+  text-align: left;
+  padding-top: 32%;
+  padding-left: 40px;
+  text-shadow: 0px 0px 10px rgb(17, 17, 17);
+  font-family: 'PoppinsExtraLight';
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
+}
+
+.subtitle {
+  margin: -20px 0px;
+  color: rgb(238, 232, 220);  
+  padding-top: 15px;       
+  font-size: 7px;
+  white-space: nowrap;
+  text-align: left;
+  padding-left: 45px;
+  text-shadow: 0px 0px 20px rgb(17, 17, 17);
+  font-family: 'PoppinsExtraLight';
+  z-index: 10;
+  pointer-events: auto;
+
+}
+
+
+
+
+.circle1 {
+  width: 1100px;
+  height: 700px;
+  border-radius: 50%;
+  background: rgb(37, 37, 37);
+  position: absolute;
+  top: -65%;
+  left: -95%;
+  z-index: -4;
+  box-shadow: 0px 20px 20px rgb(27, 27, 27);
+
+
+}
+
+.circle2 {
+  width: 950px;
+  height: 700px;
+  border-radius: 50%;
+  background: rgb(37, 37, 37);
+  position: absolute;
+  top: -52%;
+  left: -76%;
+  z-index: -5;
+  box-shadow: 0px 20px 20px rgb(27, 27, 27);
+
+
+
+}
+
+.circle3 {
+  width: 950px;
+  height: 700px;
+  border-radius: 50%;
+  background: rgb(37, 37, 37);
+  position: absolute;
+  top: -42%;
+  left: -82%;
+  z-index: -6;
+  box-shadow: -0px 20px 20px rgb(27, 27, 27);
+
+
+}
+
+
+}
