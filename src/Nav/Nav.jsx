@@ -189,7 +189,7 @@ function Nav({ scrollToAbout,scrollToExperience,scrollToProject,scrollToContact,
 
                 <div style={{ 
                     marginTop: isVisible ? "-300px" : "-600px",
-                    borderRadius: isVisible ? "200px" : "0px"
+                    borderRadius: isVisible ? styles.board.borderRadius : "0px"
                 }} 
                 className={`${styles.board} ${isAboutInView ? styles.boardAbout : ''}`}>
                     {component}
