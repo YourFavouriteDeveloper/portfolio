@@ -581,3 +581,122 @@ body {
     }
 
 }
+
+@media (max-width: 450px) {
+  .navbarContainer {
+    position: fixed;
+    z-index: 20;
+    justify-content: center;
+    display: flex;
+    gap: 2px;
+    background-color: rgb(26, 25, 25);
+    width: 100%;
+    box-sizing: border-box; 
+    padding: 15px 0px;
+
+    }
+  #name {
+    margin: 0px 0px;
+    margin-right:0px;
+    padding: 0px 0px;
+    white-space: nowrap;
+    font-family: 'PoppinsExtraLight';
+    font-weight: bold;
+    font-size:14px;
+    color: rgb(250, 241, 224);
+    text-decoration: none;
+    transition: all 0.3s ease;  
+    }
+    .navbar {
+
+    cursor: pointer;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size:7px;
+    color: rgb(250, 241, 224);
+    text-decoration: none;
+    background-color: rgb(39, 39, 39);
+    padding: 5px 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    }
+    .board {
+    
+    display: flex;
+    flex-direction: column; 
+    position: fixed;
+    z-index: 12;
+    width: 100%;
+    margin-top: -300px;
+    border-radius: 80px;
+    background-color: rgb(22, 22, 22);
+    height:520px;
+    transition: all 1s ease;
+    overflow: hidden;
+
+    }
+
+    .about {
+        margin:2px;
+        color: aliceblue;
+        font-size: 6px;
+        padding-right: 0.5%;
+        font-family: 'PoppinsExtraLight';
+    }
+
+    .moreAbout {
+        cursor: pointer;
+        font-family: 'PoppinsExtraLight';
+        font-size:8px;
+        width: 20%;
+        margin-top: 5px;
+        margin-left: 39%;
+        align-items: center;
+        color: rgb(250, 241, 224);
+        text-decoration: none;
+        background-color: rgb(39, 39, 39);
+        padding: 7px 7px;
+        border-radius: 30px;
+        transition: all 0.3s ease; 
+    }
+    .boardAbout .moreAbout {
+    cursor: pointer;
+    font-family: 'PoppinsExtraLight';
+    font-size:10px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 39%;
+    align-items: center;
+    color: rgb(39, 39, 39);
+    text-decoration: none;
+    background-color: rgba(250, 241, 224, 0.548);
+    padding: 10px 10px;
+    border-radius: 30px;
+    transition: all 0.3s ease; 
+}
+    .contact {
+        padding-top: 0px;
+        margin:2px;
+        color: aliceblue;
+        font-size: 6px;
+        padding-right: 0.5%;
+        font-family: 'PoppinsExtraLight';
+    }
+
+    .moreContact {
+        padding-top: 10px;
+        cursor: pointer;
+        font-family: 'PoppinsExtraLight';
+        font-size:8px;
+        width: 20%;
+        margin-top: 5px;
+        margin-left: 39%;
+        align-items: center;
+        color: rgb(250, 241, 224);
+        text-decoration: none;
+        background-color: rgb(39, 39, 39);
+        padding: 7px 7px;
+        border-radius: 30px;
+        transition: all 0.3s ease; 
+    }
+
+}
