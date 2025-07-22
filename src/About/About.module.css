@@ -157,7 +157,7 @@ html, body {
 @media (max-width: 1800px) {
 .container {
   background-color: rgb(238, 232, 220);
-  min-height: 160vh; 
+  min-height: 210vh; 
   position: relative;
   z-index: -3;
   overflow-y: hidden;
@@ -302,7 +302,7 @@ html, body {
 @media (max-width: 1500px) {
 .container {
   background-color: rgb(238, 232, 220);
-  min-height: 152.5vh; 
+  min-height: 209vh; 
   position: relative;
   z-index: -3;
   overflow-y: hidden;
@@ -448,7 +448,7 @@ html, body {
 @media (max-width: 1300px) {
 .container {
   background-color: rgb(238, 232, 220);
-  min-height: 132vh; 
+  min-height: 182vh; 
   position: relative;
   z-index: -3;
   overflow-y: hidden;
@@ -594,7 +594,7 @@ html, body {
 @media (max-width: 1100px) {
 .container {
   background-color: rgb(238, 232, 220);
-  min-height: 118vh; 
+  min-height: 178vh; 
   position: relative;
   z-index: -3;
   overflow-y: hidden;
@@ -742,7 +742,7 @@ html, body {
 @media (max-width: 900px) {
 .container {
   background-color: rgb(238, 232, 220);
-  min-height: 97vh; 
+  min-height: 167vh; 
   position: relative;
   z-index: -3;
   overflow-y: hidden;
