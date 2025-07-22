@@ -80,7 +80,7 @@ function Nav({ scrollToAbout,scrollToExperience,scrollToProject,scrollToContact,
                     </>
 
     const contact = <>
-                    <p className={styles.about} style={{paddingTop: "410px"}}>
+                    <p className={styles.contact} style={{paddingTop: "410px"}}>
                     If you have any recommedations about improving my Portfolio or need any help of my level, feel free to contact with me.
                     </p>
                     <p className={styles.contact} >Click <b><u>More Contact</u></b> to contact with me.</p>
