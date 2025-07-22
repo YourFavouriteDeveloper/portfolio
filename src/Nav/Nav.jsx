@@ -67,7 +67,7 @@ function Nav({ scrollToAbout,scrollToExperience,scrollToProject,scrollToContact,
                     </p>
                     <p className={styles.about}>My experience is not only limited with internships, but also been active in volunteering, playing crucial role as a team member/ team leader.</p>
                     <p className={styles.about} >Click <b><u>More Experience</u></b> to read more about my experience.</p>
-                    <a className={styles.moreAbout} style={{marginTop: "20px"}} onClick={handleExperienceClick}>More Experience</a>  
+                    <a className={styles.moreAbout}  onClick={handleExperienceClick}>More Experience</a>  
                     </>
 
     const project = <>
@@ -76,15 +76,15 @@ function Nav({ scrollToAbout,scrollToExperience,scrollToProject,scrollToContact,
                     </p>
                     <p className={styles.about}>To improve my Backend and Frontend skills, I have worked on some of the little, yet worthy to check projects.</p>
                     <p className={styles.about}>Click <b><u>More Projects</u></b> to check my projects.</p>
-                    <a className={styles.moreAbout} style={{marginTop: "20px"}} onClick={handleProjectClick}>More Project</a>  
+                    <a className={styles.moreAbout}  onClick={handleProjectClick}>More Project</a>  
                     </>
 
     const contact = <>
                     <p className={styles.about} style={{paddingTop: "410px"}}>
                     If you have any recommedations about improving my Portfolio or need any help of my level, feel free to contact with me.
                     </p>
-                    <p className={styles.about} style={{paddingTop: "5px"}}>Click <b><u>More Contact</u></b> to contact with me.</p>
-                    <a className={styles.moreAbout} style={{marginTop: "20px"}} onClick={handleContactClick}>More Contact</a>  
+                    <p className={styles.contact} >Click <b><u>More Contact</u></b> to contact with me.</p>
+                    <a className={styles.moreContact} onClick={handleContactClick}>More Contact</a>  
                     </>
 
                     
