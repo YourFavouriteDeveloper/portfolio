@@ -86,3 +86,41 @@ html, body {
     transform: scale(1.05);
     filter: drop-shadow(0 0 5px rgba(250, 241, 224, 0.24));
 }
+
+
+
+
+@media (max-width: 1800px) {
+
+}
+
+
+@media (max-width: 1500px) {
+
+
+}
+
+
+@media (max-width: 1300px) {
+
+}
+
+@media (max-width: 1100px) {
+
+}
+
+
+@media (max-width: 900px) {
+
+}
+
+
+@media (max-width: 650px) {
+
+
+}
+
+@media (max-width: 580px) {
+
+
+}

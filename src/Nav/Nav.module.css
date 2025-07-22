@@ -1072,7 +1072,7 @@ body {
     color: rgb(39, 39, 39);
     text-decoration: none;
     background-color: rgba(250, 241, 224, 0.548);
-    padding: 10px 10px;
+    padding: 7px 7px;
     border-radius: 30px;
     transition: all 0.3s ease; 
 }
@@ -1101,24 +1101,108 @@ body {
         border-radius: 30px;
         transition: all 0.3s ease; 
     }
-        .navbarAbout {
+    .navbarAbout {
+        position: fixed;
+        z-index: 20;
+        justify-content: center;
+        display: flex;
+        gap: 2px;
         background-color: rgb(197, 191, 182); 
         transition: background-color 0.5s ease-in-out;
     }
 
-    .boardAbout {
-        display: flex;
-        flex-direction: column; 
-        position: fixed;
-        z-index: 1;
-        width: 100%;
-        margin-top: -300px;
-        border-radius: 200px;
-        background-color: rgb(163, 159, 152);
-        height:600px;
-        transition: all 1s ease;
-        overflow: hidden;
 
+    .navbarAbout #name {
+    margin: 0px 0px;
+    margin-right:0px;
+    padding: 0px 0px;
+    white-space: nowrap;
+    font-family: 'PoppinsExtraLight';
+    font-weight: bold;
+    font-size:14px;
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    transition: all 0.3s ease;  
+}
+
+    .navbarAbout .navbar {
+
+    cursor: pointer;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    color: rgb(39, 39, 39);
+    font-size:7px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 30px;
+    background-color: rgb(250, 241, 224);
+    transition: all 0.3s ease;
+}
+
+    .boardAbout {
+    display: flex;
+    flex-direction: column; 
+    position: fixed;
+    z-index: 12;
+    width: 100%;
+    margin-top: -300px;
+    border-radius: 80px;
+    background-color: rgb(163, 159, 152);
+    height:520px;
+    transition: all 1s ease;
+    overflow: hidden;
+
+}
+
+    .boardAbout .about {
+    margin:2px;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+    font-size: 6px;
+    padding-right: 0.5%;
+    font-family: 'PoppinsExtraLight';
+}
+
+    .boardAbout .moreAbout {
+    cursor: pointer;
+    font-family: 'PoppinsExtraLight';
+    font-size:8px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 39%;
+    align-items: center;
+    color: rgb(39, 39, 39);
+    text-decoration: none;
+    background-color: rgba(250, 241, 224, 0.548);
+    padding: 7px 7px;
+    border-radius: 30px;
+    transition: all 0.3s ease; 
+
+
+}
+    .boardAbout .contact {
+        padding-top: 0px;
+        margin:2px;
+        font-size: 6px;
+        font-weight: bold;
+        color: rgb(39, 39, 39);
+        padding-right: 0.5%;
+        font-family: 'PoppinsExtraLight';
+    }
+
+    .boardAbout .moreContact {
+        padding-top: 10px;
+        cursor: pointer;
+        font-family: 'PoppinsExtraLight';
+        font-size:8px;
+        width: 20%;
+        margin-top: 5px;
+        margin-left: 39%;
+        align-items: center;
+        color: rgb(39, 39, 39);
+        text-decoration: none;
+        background-color: rgba(250, 241, 224, 0.548);
+        padding: 7px 7px;
+        border-radius: 30px;
     }
 
 }
