@@ -2,7 +2,10 @@
 import styles from './Contact.module.css';
 import React, { useEffect, useRef, forwardRef } from 'react';
 import { motion, useInView, useAnimation } from 'framer-motion';
-
+import gmail from '../assets/gmail-dark.webp';
+import gitlab from '../assets/gitlab-dark.webp';
+import linkedin from '../assets/linkedin-dark.webp';
+import whatsapp from '../assets/whatsapp-dark.webp';
 
 const Contact = forwardRef((props, ref) => {
     const localRef = useRef(null);
@@ -60,16 +63,16 @@ const Contact = forwardRef((props, ref) => {
                         </p>
                         <div className={styles.buttons}>
                             <a className={styles.button} target="_blank" href="mailto:nihad.mammadov.16@gmail.com">
-                                <img className={styles.mail} src="src/assets/gmail-dark.webp" alt="mail" />
+                                <img className={styles.mail} src={gmail} alt="mail" />
                             </a>
                             <a className={styles.button} target="_blank" href="https://gitlab.com/nihadmammadov">
-                                <img className={styles.gitlab} src="src/assets/gitlab-dark.webp" alt="mail" />
+                                <img className={styles.gitlab} src={gitlab} alt="gitlab" />
                             </a>
                             <a className={styles.button} target="_blank" href="https://www.linkedin.com/in/nihad-mammadov-025548325/">
-                                <img className={styles.linkedin} src="src/assets/linkedin-dark.webp" alt="mail" />
+                                <img className={styles.linkedin} src={linkedin} alt="linkedin" />
                             </a>
                             <a className={styles.button} target="_blank" href="https://wa.me/994508514536">
-                                <img className={styles.whatsapp} src="src/assets/whatsapp-dark.webp" alt="mail" />
+                                <img className={styles.whatsapp} src={whatsapp} alt="whatsapp" />
                             </a>
                         </div>                  
 
