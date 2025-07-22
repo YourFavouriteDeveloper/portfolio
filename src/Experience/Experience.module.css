@@ -1,0 +1,90 @@
+html, body {
+  overflow-x: hidden;
+}
+
+
+.container {
+  background-color: rgb(39, 39, 39);
+  min-height: 210vh; 
+  position: relative;
+  z-index: -3;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  
+}
+
+.information {
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  margin-left: 10%;
+  margin-top: 5%;
+  width:80%;
+  height: 1800px;
+  background-color: rgb(26, 25, 25);
+  border-radius: 60px;
+}
+
+.title {
+  margin: 0px;
+  color: rgb(245, 239, 227) ;         
+  font-size: 50px;
+  white-space: nowrap;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 70px;
+  font-family: 'PoppinsExtraLight';
+  position: relative;
+  z-index: 10;
+
+}
+
+.subtitle {
+  color: rgb(245, 239, 227) ;         
+  font-size: 30px;
+  max-width: 1000px;
+  text-align: left;
+  padding-left: 25px;
+  font-family: 'PoppinsExtraLight';
+  z-index: 10;
+
+
+}
+
+.subsubtitle {
+  color: rgb(245, 239, 227) ;         
+  font-size: 20px;
+  max-width: 1200px;
+  text-align: left;
+  padding-left: 35px;
+  font-family: 'PoppinsExtraLight';
+  z-index: 10;
+
+
+}
+
+
+
+li {
+    list-style: none;
+    background-color:rgb(19, 18, 18);
+    width: 95%;
+    border-radius: 40px;
+    margin-left: 11px;
+    padding: 10px 10px;
+    padding-bottom: 30px;
+}
+
+.afterInitial {
+    margin-top: 40px;
+}
+
+
+
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}

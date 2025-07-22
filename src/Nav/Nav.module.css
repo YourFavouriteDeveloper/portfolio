@@ -1,0 +1,228 @@
+body {
+    margin: 0px;
+
+    text-align: center;
+
+
+}
+
+
+
+
+.navbarContainer {
+    position: fixed;
+    z-index: 20;
+    justify-content: center;
+    display: flex;
+    gap: 120px;
+    background-color: rgb(26, 25, 25);
+    width: 100%;
+    box-sizing: border-box; 
+    padding: 15px 300px;
+
+}
+
+#name {
+    margin: 0px 0px;
+    margin-right:500px;
+    padding: 0px 0px;
+    white-space: nowrap;
+    font-family: 'PoppinsExtraLight';
+    font-weight: bold;
+    font-size:20px;
+    color: rgb(250, 241, 224);
+    text-decoration: none;
+    transition: all 0.3s ease;  
+}
+
+#name:hover {
+    text-shadow:0px 0px 20px rgba(250, 241, 224, 0.548);
+
+}
+
+.navbar {
+
+    cursor: pointer;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size:15px;
+    color: rgb(250, 241, 224);
+    text-decoration: none;
+    background-color: rgb(39, 39, 39);
+    padding: 5px 30px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.navbar:hover {
+    box-shadow: 0px 0px 20px rgba(250, 241, 224, 0.548);
+    transform: scale(1.05);
+    background-color: rgb(39, 39, 39);
+    
+}
+
+.navbar:active {
+    box-shadow: 0px 0px 20px rgba(20, 20, 20, 0.671);
+    background-color: rgb(17, 17, 17);
+    
+}
+
+
+.board {
+    display: flex;
+    flex-direction: column; 
+    position: fixed;
+    z-index: 12;
+    width: 100%;
+    margin-top: -300px;
+    border-radius: 200px;
+    background-color: rgb(22, 22, 22);
+    height:600px;
+    transition: all 1s ease;
+    overflow: hidden;
+
+}
+
+.about {
+    margin:2px;
+    color: aliceblue;
+    font-size: 17px;
+    padding-right: 0.5%;
+    font-family: 'PoppinsExtraLight';
+}
+
+.moreAbout {
+    cursor: pointer;
+    font-family: 'PoppinsExtraLight';
+    font-size:20px;
+    width: 20%;
+    margin-top: 15px;
+    margin-left: 39%;
+    align-items: center;
+    color: rgb(250, 241, 224);
+    text-decoration: none;
+    background-color: rgb(39, 39, 39);
+    padding: 10px 10px;
+    border-radius: 30px;
+    transition: all 0.3s ease; 
+}
+
+.moreAbout:hover {
+    box-shadow: 0px 0px 10px rgba(250, 241, 224, 0.548);
+    transform: scale(1.05);
+    background-color: rgb(39, 39, 39);
+}
+
+.moreAbout:active {
+    box-shadow: 0px 0px 20px rgba(20, 20, 20, 0.671);
+    background-color: rgb(17, 17, 17);
+    
+}
+
+
+.navbarAbout {
+  background-color: rgb(197, 191, 182); 
+  transition: background-color 0.5s ease-in-out;
+}
+
+
+.navbarAbout #name {
+    margin: 0px 0px;
+    margin-right:500px;
+    padding: 0px 0px;
+    white-space: nowrap;
+    font-family: 'PoppinsExtraLight';
+    font-weight: bold;
+    font-size:20px;
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    transition: all 0.3s ease;  
+}
+
+.navbarAbout #name:hover {
+    text-shadow:0px 0px 20px rgb(17, 17, 17);
+
+}
+
+
+
+.navbarAbout .navbar {
+
+    cursor: pointer;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size:15px;
+    color: rgb(39, 39, 39);
+    text-decoration: none;
+    background-color: rgb(250, 241, 224);
+    padding: 5px 30px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.navbarAbout .navbar:hover {
+    box-shadow: 0px 0px 20px rgba(39, 39, 39, 0.493);
+    transform: scale(1.05);
+    background-color:rgba(250, 241, 224, 0.548) ;
+    
+}
+
+.navbarAbout .navbar:active {
+    box-shadow: 0px 0px 20px rgba(250, 241, 224, 0.548);
+    background-color: rgb(255, 253, 248);
+    
+}
+
+
+
+.boardAbout {
+    display: flex;
+    flex-direction: column; 
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin-top: -300px;
+    border-radius: 200px;
+    background-color: rgb(163, 159, 152);
+    height:600px;
+    transition: all 1s ease;
+    overflow: hidden;
+
+}
+
+.boardAbout .about {
+    margin:2px;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+    font-size: 17px;
+    padding-right: 0.5%;
+    font-family: 'PoppinsExtraLight';
+}
+
+.boardAbout .moreAbout {
+    cursor: pointer;
+    font-family: 'PoppinsExtraLight';
+    font-size:20px;
+    width: 20%;
+    margin-top: 15px;
+    margin-left: 39%;
+    align-items: center;
+    color: rgb(39, 39, 39);
+    text-decoration: none;
+    background-color: rgba(250, 241, 224, 0.548);
+    padding: 10px 10px;
+    border-radius: 30px;
+    transition: all 0.3s ease; 
+}
+
+.boardAbout .moreAbout:hover {
+    box-shadow: 0px 0px 10px rgb(39, 39, 39);
+    transform: scale(1.05);
+    background-color: rgb(250, 241, 224);
+}
+
+.boardAbout .moreAbout:active {
+    box-shadow: 0px 0px 20px rgba(250, 241, 224, 0.548);
+    background-color: rgb(255, 253, 248);
+    
+}
+
+

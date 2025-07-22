@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'PoppinsLight';
+  src: url('./assets/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PoppinsExtraLight';
+  src: url('./assets/Poppins-ExtraLight.ttf') format('truetype');
+}

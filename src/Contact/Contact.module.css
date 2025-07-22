@@ -1,0 +1,88 @@
+html, body {
+  overflow-x: hidden;
+}
+
+
+.container {
+  width: 100%;
+  align-items: center;
+  background-color: rgb(19, 18, 18);
+  min-height: 100vh; 
+  position: relative;
+  z-index: 10;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  
+}
+
+
+.title {
+  margin: 0px;
+  color: rgb(245, 239, 227) ;         
+  font-size: 120px;
+  white-space: nowrap;
+  padding-top: 140px;
+  font-family: 'PoppinsExtraLight';
+  position: relative;
+  z-index: 10;
+
+}
+
+.subtitle {
+  display: block;
+  margin: 0px;
+  color: rgb(245, 239, 227) ;         
+  font-size: 20px;
+  padding: 0px 300px;
+  padding-bottom: 20px;
+  position: relative;
+  font-family: 'PoppinsExtraLight';
+  z-index: 10;
+
+
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+
+    gap: 100px;
+    z-index: 19;
+    align-items: center;
+}
+
+.button .mail {
+    margin-top: 50px;
+    width:150px;
+    z-index: 19;
+    transition: all 0.3s ease;
+}
+
+.button .gitlab {
+    margin-top: 50px;
+    width:95px;
+    z-index: 19;
+    transition: all 0.3s ease;
+}
+
+.button .linkedin {
+    margin-top: 50px;
+    width:90px;
+    z-index: 19;
+    transition: all 0.3s ease;
+}
+
+.button .whatsapp {
+    margin-top: 50px;
+    width:110px;
+    z-index: 19;
+    transition: all 0.3s ease;
+}
+
+
+.button img:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 5px rgba(250, 241, 224, 0.24));
+}

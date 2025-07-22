@@ -1,0 +1,157 @@
+html, body {
+  overflow-x: hidden;
+}
+
+
+.container {
+  background-color: rgb(238, 232, 220);
+  min-height: 185vh; 
+  position: relative;
+  z-index: -3;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+  
+}
+
+.information {
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.title {
+  margin: 0px;
+  color: rgb(39, 39, 39);         
+  font-size: 150px;
+  white-space: nowrap;
+  text-align: right;
+  padding-top: 13%;
+  padding-right: 70px;
+
+  font-family: 'PoppinsExtraLight';
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
+}
+
+.subtitle {
+  margin: -20px 0px;
+  color: rgb(39, 39, 39);         
+  font-size: 25px;
+  max-width: 40%;
+  text-align: right;
+  margin-left:60%;
+  padding-right: 90px;
+
+  font-family: 'PoppinsExtraLight';
+  z-index: 10;
+  pointer-events: auto;
+
+}
+
+
+.information img {
+  position: absolute;
+  width: 950px; 
+  height: 600px;
+  border-radius: 10px;
+  right: 52%;
+  top: 30%;
+  z-index: -9;
+  opacity: 90%;
+
+}
+
+.subsubtitle {
+  position: absolute;
+  margin: -20px 0px;
+  color: rgb(39, 39, 39);         
+  font-size: 42px;
+  max-width: 70%;
+  text-align: left;
+  margin-left:2%;
+  padding: 110px ;
+
+  font-family: 'PoppinsLight';
+  z-index: 10;
+  pointer-events: auto;
+  border: 0px solid rgb(39, 39, 39);
+  border-radius: 15px;
+
+
+}
+
+
+
+
+
+
+
+
+.experienceTitle {
+  position: absolute;
+
+  color: rgb(39, 39, 39);         
+  font-size: 150px;
+  text-align: right;
+  margin-left:-14%;
+  padding-left: 1300px;
+  padding-right: 1100px;
+  font-family: 'PoppinsLight';
+  z-index: 9;
+  pointer-events: auto;
+  border-radius: 15px;
+  border: 5px solid rgb(39, 39, 39);
+}
+
+.circle1 {
+  width: 1100px;
+  height: 700px;
+  border-radius: 50%;
+  background: rgb(238, 232, 220);
+  position: absolute;
+  top: 6%;
+  right: -10%;
+  z-index: -9;
+  box-shadow: 0px 20px 20px rgba(128, 128, 128, 0.336);
+
+
+}
+
+.circle2 {
+  width: 1100px;
+  height: 600px;
+  border-radius: 50%;
+  background: rgb(238, 232, 220);
+  position: absolute;
+  top: 15%;
+  right: -20%;
+  z-index: -10;
+  box-shadow: 0px 20px 20px rgba(128, 128, 128, 0.336);
+
+
+
+}
+
+.circle3 {
+  width: 1100px;
+  height: 600px;
+  border-radius: 50%;
+  background: rgb(238, 232, 220);
+  position: absolute;
+  top: 20%;
+  right: -30%;
+  z-index: -11;
+  box-shadow: 0px 20px 20px rgba(128, 128, 128, 0.336);
+
+}
+
+
+
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
