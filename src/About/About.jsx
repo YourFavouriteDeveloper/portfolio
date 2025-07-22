@@ -96,20 +96,6 @@ const About = forwardRef((props, ref) => {
                     transition={{ duration: 1 }}
                 >
                     <b>As a passionate and growth-driven Software Engineer</b>, I specialize in building scalable and maintainable Back-end Systems Using Java and Spring Boot.
-                </motion.p>
-                <motion.p 
-                    className={styles.subtitle}
-                    style={{marginTop:"20px"}}
-                    variants={{
-                        hidden: { x: 175, rotate: 1 },
-                        visible: { x: 0, rotate: 0 }
-                    }}
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ margin: "14px" }}
-                    animate={mainControls}
-                    transition={{ duration: 1 }}
-                >
                     I'm currently expanding my expertise in <b>Front-end Development</b> with React. If you see improvements as you visit this portfolio, It means that I have learned something.
                 </motion.p>
 
@@ -129,7 +115,7 @@ const About = forwardRef((props, ref) => {
                 />
                 <motion.p 
                     className={styles.subsubtitle}
-                    style={{marginTop:"245px"}}
+                    style={{marginTop:"155px"}}
                     variants={{
                         hidden: { x: -175 },
                         visible: { x: 0 }
@@ -144,7 +130,7 @@ const About = forwardRef((props, ref) => {
                 </motion.p>
                 <motion.p 
                     className={styles.experienceTitle}
-                    style={{marginTop:"860px"}}
+                    style={{marginTop:"250px"}}
                     variants={{
                         hidden: { x: 175 },
                         visible: { x: 0 }

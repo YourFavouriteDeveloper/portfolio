@@ -17,7 +17,8 @@ function Home() {
       <Nav 
             scrollToAbout={() => aboutRef.current.scrollIntoView({ behavior: "smooth" })}
             scrollToExperience={() => {
-              const yOffset = -210;
+              const remInPx = parseFloat(getComputedStyle(document.documentElement).fontSize);
+              const yOffset = -window.innerHeight * 0.15 - remInPx * 5;
               const y = experienceRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset;
               window.scrollTo({ top: y, behavior: 'smooth' });
             }}
