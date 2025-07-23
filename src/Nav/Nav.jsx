@@ -63,7 +63,7 @@ function Nav({ scrollToAbout,scrollToExperience,scrollToProject,scrollToContact,
                     I am Nihad Mammadov, a dedicated <b>Full-Stack Developer</b> who currently studies Computer Engineering at Baku Higher Oil School.
                     </p>
                     <p className={styles.about}>Currently developing my Front-end skills, as the portfolio will get updated for each improvement made in those skills.</p>
-                    <p className={styles.about}>Click <b><u>More About</u></b> to get more information about me.</p>
+                    <p className={styles.about}>Click <b>More About</b> to get more information about me.</p>
                     <a className={styles.moreAbout} onClick={handleAboutClick}>More About</a>
                 </>
 
@@ -74,7 +74,7 @@ function Nav({ scrollToAbout,scrollToExperience,scrollToProject,scrollToContact,
                     I have been actively participated in many Software Engineer Internships, worked as a employee at certain companies.
                     </p>
                     <p className={styles.about}>My experience is not only limited with internships, but also been active in volunteering, playing crucial role as a team member/ team leader.</p>
-                    <p className={styles.about} >Click <b><u>More Experience</u></b> to read more about my experience.</p>
+                    <p className={styles.about} >Click <b>More Experience</b> to read more about my experience.</p>
                     <a className={styles.moreAbout}  onClick={handleExperienceClick}>More Experience</a>  
                     </>
 
@@ -83,7 +83,7 @@ function Nav({ scrollToAbout,scrollToExperience,scrollToProject,scrollToContact,
                     It is not only about learning, but implementing those skills in projects that will boost any Developer's career.
                     </p>
                     <p className={styles.about}>To improve my Backend and Frontend skills, I have worked on some of the little, yet worthy to check projects.</p>
-                    <p className={styles.about}>Click <b><u>More Projects</u></b> to check my projects.</p>
+                    <p className={styles.about}>Click <b>More Projects</b> to check my projects.</p>
                     <a className={styles.moreAbout}  onClick={handleProjectClick}>More Project</a>  
                     </>
 
@@ -91,7 +91,7 @@ function Nav({ scrollToAbout,scrollToExperience,scrollToProject,scrollToContact,
                     <p className={styles.contact} style={{paddingTop: "410px"}}>
                     If you have any recommedations about improving my Portfolio or need any help of my level, feel free to contact with me.
                     </p>
-                    <p className={styles.contact} >Click <b><u>More Contact</u></b> to contact with me.</p>
+                    <p className={styles.contact} >Click <b>More Contact</b> to contact with me.</p>
                     <a className={styles.moreContact} onClick={handleContactClick}>More Contact</a>  
                     </>
 

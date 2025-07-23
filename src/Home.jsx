@@ -13,6 +13,7 @@ function Home() {
     const contactRef = useRef(null);
   return (
    <>
+   <div>
       <div ref={aboutRef}></div>
       <Nav 
             scrollToAbout={() => aboutRef.current.scrollIntoView({ behavior: "smooth" })}
@@ -29,6 +30,7 @@ function Home() {
       <Experience ref={experienceRef}/>
       <Project ref={projectRef} />
       <Contact ref={contactRef} />
+    </div>
    </>
   )
 }

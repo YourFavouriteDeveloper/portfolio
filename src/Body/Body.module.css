@@ -1,6 +1,6 @@
 .container {
   background-color: rgb(39, 39, 39);
-  min-height: 75vh;
+  min-height: 100vh;
   position: relative;
   z-index: -3;
   padding: 5% 2%;
@@ -21,7 +21,7 @@
   font-size: clamp(3rem  , 30rem, 8vw);
   white-space: normal;
   text-align: left;
-  padding-top: 20rem;
+  padding-top: 22rem;
   margin-top: 4vw;
   line-height: 0.9;
   padding-left: 0.5vw;
@@ -92,3 +92,326 @@
     transform: translateY(-20px);
   }
 }
+
+@media (max-width: 1480px) {
+.container {
+  min-height: 100vh;
+}
+.title {
+  padding-top: 24rem;
+  margin-top: 3vw;
+  font-size: clamp(7rem  , 7rem, 8vw);
+}
+
+.subtitle {
+  margin-top: 0.5rem;
+  font-size: clamp(0.3rem, 130%, 13vw);
+}
+
+.circle1 {
+  width: 110vw;
+  height: 70vw;
+  top: 17rem;
+  margin-top: -32vw;
+  left: -24%;
+  z-index: -4;
+}
+
+.circle2 {
+  width: 110vw;
+  height: 70vw;
+  top: 18rem;
+  margin-top: -25vw;
+  left: -30%;
+  z-index: -5;
+}
+
+.circle3 {
+  width: 110vw;
+  height: 70vw;
+  top: 19rem;
+  margin-top: -18vw;
+  left: -36%;
+  z-index: -6;
+}
+
+}
+
+@media (max-width: 1280px) {
+.container {
+  min-height: 100vh;
+}
+.title {
+  padding-top: 21rem;
+  margin-top: 3vw;
+  font-size: clamp(9rem  , 7rem, 8vw);
+}
+
+.subtitle {
+  margin-top: 0.5rem;
+  font-size: clamp(0.3rem, 150%, 13vw);
+}
+
+.circle1 {
+  width: 115vw;
+  height: 75vw;
+  top: 18rem;
+  margin-top: -32vw;
+  left: -24%;
+  z-index: -4;
+}
+
+.circle2 {
+  width: 115vw;
+  height: 75vw;
+  top: 20rem;
+  margin-top: -25vw;
+  left: -30%;
+  z-index: -5;
+}
+
+.circle3 {
+  width: 115vw;
+  height: 75vw;
+  top: 22rem;
+  margin-top: -18vw;
+  left: -36%;
+  z-index: -6;
+}
+}
+
+
+
+
+@media (max-width: 1024px) {
+.container {
+  min-height: 100vh;
+}
+
+.title {
+  padding-top: 25rem;
+  margin-top: 3vw;
+  font-size: clamp(6.85rem  , 8rem, 8vw);
+}
+
+.subtitle {
+  margin-top: 0.5rem;
+  font-size: clamp(0.3rem, 170%, 13vw);
+}
+
+.circle1 {
+  width: 120vw;
+  height: 85vw;
+  top: 20rem;
+  margin-top: -32vw;
+  left: -24%;
+  z-index: -4;
+}
+
+.circle2 {
+  width: 120vw;
+  height: 85vw;
+  top: 22rem;
+  margin-top: -25vw;
+  left: -32%;
+  z-index: -5;
+}
+
+.circle3 {
+  width: 120vw;
+  height: 85vw;
+  top: 24rem;
+  margin-top: -18vw;
+  left: -40%;
+  z-index: -6;
+}
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+.container {
+  min-height: 100vh;
+}
+
+.title {
+  padding-top: 24rem;
+  margin-top: 3vw;
+  font-size: clamp(5.5rem  , 7rem, 8vw);
+}
+
+.subtitle {
+  margin-top: 0.5rem;
+  font-size: clamp(0.3rem, 150%, 13vw);
+}
+
+.circle1 {
+  width: 120vw;
+  height: 85vw;
+  top: 20rem;
+  margin-top: -32vw;
+  left: -24%;
+  z-index: -4;
+}
+
+.circle2 {
+  width: 120vw;
+  height: 85vw;
+  top: 22rem;
+  margin-top: -25vw;
+  left: -32%;
+  z-index: -5;
+}
+
+.circle3 {
+  width: 120vw;
+  height: 85vw;
+  top: 24rem;
+  margin-top: -18vw;
+  left: -40%;
+  z-index: -6;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 640px) {
+.container {
+  min-height: 100vh;
+}
+
+
+
+.title {
+  padding-top: 26rem;
+  margin-top: 3vh;
+  font-size: clamp(4.3rem  , 6rem, 8vw);
+}
+
+.subtitle {
+  margin-top: 0.5rem;
+  font-size: clamp(0.3rem, 140%, 13vw);
+}
+
+
+.circle1 {
+  width: 145vw;
+  height: 125vw;
+  top: 16rem;
+  margin-top: -32vw;
+  left: -50%;
+  z-index: -4;
+}
+
+.circle2 {
+  width: 145vw;
+  height: 125vw;
+  top: 19rem;
+  margin-top: -25vw;
+  left: -58%;
+  z-index: -5;
+}
+
+.circle3 {
+  width: 145vw;
+  height: 125vw;
+  top: 22rem;
+  margin-top: -18vw;
+  left: -66%;
+  z-index: -6;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 450px) {
+.container {
+  min-height: 100vh;
+}
+
+
+
+.title {
+  padding-top: 26rem;
+  margin-top: 3vh;
+  font-size: clamp(3.4rem  , 6rem, 8vw);
+}
+
+.subtitle {
+  margin-top: 0.5rem;
+  font-size: clamp(0.3rem, 110%, 13vw);
+}
+
+
+.circle1 {
+  width: 145vw;
+  height: 125vw;
+  top: 16rem;
+  margin-top: -32vw;
+  left: -50%;
+  z-index: -4;
+}
+
+.circle2 {
+  width: 145vw;
+  height: 125vw;
+  top: 19rem;
+  margin-top: -25vw;
+  left: -58%;
+  z-index: -5;
+}
+
+.circle3 {
+  width: 145vw;
+  height: 125vw;
+  top: 22rem;
+  margin-top: -18vw;
+  left: -66%;
+  z-index: -6;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

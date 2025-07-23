@@ -763,7 +763,7 @@ body {
 }
 
 
-@media (max-width: 650px) {
+@media (max-width: 640px) {
   .navbarContainer {
     position: fixed;
     z-index: 20;
@@ -985,7 +985,7 @@ body {
 
 }
 
-@media (max-width: 580px) {
+@media (max-width: 450px) {
   .navbarContainer {
     position: fixed;
     z-index: 20;

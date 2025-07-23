@@ -7,3 +7,7 @@
   font-family: 'PoppinsExtraLight';
   src: url('./assets/Poppins-ExtraLight.ttf') format('truetype');
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
