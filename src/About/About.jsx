@@ -29,7 +29,7 @@ const About = forwardRef((props, ref) => {
                 <motion.div 
                     className={styles.circle1}
                     variants={{
-                        hidden: { x: 275, y: 175, rotate: -25 },
+                        hidden: { x: 175, y: 175, rotate: -25 },
                         visible: { x: 0, y: 0, rotate: 0 }
                     }}
                     initial="hidden"
@@ -42,7 +42,7 @@ const About = forwardRef((props, ref) => {
                 <motion.div 
                     className={styles.circle2}
                     variants={{
-                        hidden: { x: 275, y: 175, rotate: -25 },
+                        hidden: { x: 175, y: 175, rotate: -25 },
                         visible: { x: 0, y: 0, rotate: 0 }
                     }}
                     initial="hidden"
@@ -55,7 +55,7 @@ const About = forwardRef((props, ref) => {
                 <motion.div 
                     className={styles.circle3}
                     variants={{
-                        hidden: { x: 275, y: 175, rotate: -25 },
+                        hidden: { x: 175, y: 175, rotate: -25 },
                         visible: { x: 0, y: 0, rotate: 0 }
                     }}
                     initial="hidden"
@@ -71,7 +71,7 @@ const About = forwardRef((props, ref) => {
                 <motion.p 
                     className={styles.title}
                     variants={{
-                        hidden: {  x: 175, rotate: 1 },
+                        hidden: {  x: 125, rotate: 1 },
                         visible: { x: 0, rotate: 0 }
                     }}
                     initial="hidden"
@@ -104,7 +104,7 @@ const About = forwardRef((props, ref) => {
                 src={myImage} 
                 alt="Nihad Mammadov"
                 variants={{
-                    hidden: {  x: -275, rotate:20},
+                    hidden: {  x: -175, rotate:20},
                     visible: {  x: 0, rotate:30}
                 }}
                 initial="hidden"
