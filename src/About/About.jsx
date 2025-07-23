@@ -128,21 +128,6 @@ const About = forwardRef((props, ref) => {
                 >
                     I thrive in collaborative environments, enjoy mentoring others, and believe in continuous learning. Whether it's contributing to complex systems, leading technical projects, or exploring new technologies, I’m always eager to push boundaries and create impactful solutions.
                 </motion.p>
-                <motion.p 
-                    className={styles.experienceTitle}
-                    style={{marginTop:"250px"}}
-                    variants={{
-                        hidden: { x: 175 },
-                        visible: { x: 0 }
-                    }}
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ margin: "50px" }}
-                    animate={mainControls}
-                    transition={{ duration: 1 }}
-                >
-                    EXPERIENCE
-                </motion.p>
             </div>
         </div>
         </>

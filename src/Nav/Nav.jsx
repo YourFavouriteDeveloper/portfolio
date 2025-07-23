@@ -13,7 +13,11 @@ function Nav({ scrollToAbout,scrollToExperience,scrollToProject,scrollToContact,
         margin: `0px 0px ${yOffset}px 0px`,
         once: false,
     });
-    const isExperienceInView = useInView(experienceRef, {amount: 0.42, once: false });
+    const yOffsetExperience = -window.innerHeight * 0.93;
+    const isExperienceInView = useInView(aboutRef, {
+        margin: `0px 0px ${yOffsetExperience}px 0px`,
+        once: false,
+    });
     const isProjectInView = useInView(projectRef, {amount: 0.53, once: false });
     const isContactInView = useInView(contactRef, {amount: 0.53, once: false });
 

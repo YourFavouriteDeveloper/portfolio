@@ -2,8 +2,27 @@ html, body {
   overflow-x: hidden;
 }
 
+.experienceTitle {
+  position: relative;
+  display: block;
+  font-size: clamp(2rem, 8vw, 6rem);
+  text-align: right;
+  padding: 1%;
+  right: 26%;
+  padding-right: 10%;
+  margin-top: 0%;
+  padding-top: 4vw;
+  width: 120%;
+  color: rgb(39, 39, 39);
+  background-color: rgb(238, 232, 220);
+  font-family: 'PoppinsLight';
+  z-index:10;
+}
+
+
 
 .container {
+  margin: 0;
   background-color: rgb(39, 39, 39);
   min-height: 210vh; 
   position: relative;
@@ -13,6 +32,9 @@ html, body {
 
   
 }
+
+
+
 
 .information {
   position: relative;

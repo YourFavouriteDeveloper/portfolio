@@ -5,7 +5,8 @@ html, body {
 
 .container {
   background-color: rgb(238, 232, 220);
-  min-height: 50rem;
+  min-height: 80vw;
+  padding-bottom: 30vh;
   box-sizing: border-box;
   position: relative;
   z-index: -10;
@@ -21,7 +22,7 @@ html, body {
   position: relative;
   z-index: 10;
   padding-right: 4vh;
-  margin-bottom: -61vh;
+  margin-bottom: -58vh;
 }
 
 .title {
@@ -73,19 +74,7 @@ html, body {
   z-index: 10;
 }
 
-.experienceTitle {
-  position: relative;
-  font-size: clamp(2rem, 8vw, 6rem);
-  text-align: center;
-  top: -45vh ;
-  margin-bottom: 8rem;
-  padding-bottom: 0.3vh;
-  padding-right: 5%;
-  border-radius: 15px;
-  color: rgb(39, 39, 39);
-  font-family: 'PoppinsLight';
-  z-index: 9;
-}
+
 
 .circle1, .circle2, .circle3 {
   position: absolute;

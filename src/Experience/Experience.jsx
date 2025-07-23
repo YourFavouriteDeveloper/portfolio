@@ -16,6 +16,7 @@ const Experience = forwardRef((props, ref) => {
     
         return (
             <>
+
             <div
                 ref={node => {
                     localRef.current = node;
@@ -24,11 +25,21 @@ const Experience = forwardRef((props, ref) => {
                 }}
                 className={styles.container}
             >
-                <div className={styles.background}>
-                
-                
-                </div>
-    
+
+                    <motion.p 
+                        className={styles.experienceTitle}
+                        variants={{
+                            hidden: { x: 175 },
+                            visible: { x: 0 }
+                        }}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ margin: "50px" }}
+                        animate={mainControls}
+                        transition={{ duration: 1 }}
+                        >
+                            EXPERIENCE
+                    </motion.p>
     
                     <motion.div 
                         className={styles.information}
@@ -42,6 +53,8 @@ const Experience = forwardRef((props, ref) => {
                         animate={mainControls}
                         transition={{ duration: 1 }}                    
                     >
+
+
                         <p className={styles.title}>
                             BACKEND DEVELOPMENT
                         </p>
