@@ -22,6 +22,9 @@ function Body() {
         }
     }, [isInView])
 
+
+
+    
     return (
         
         <div ref={ref} className={styles.container}>
@@ -37,7 +40,8 @@ function Body() {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{
-                        margin: "300px"
+                        margin: "300px",
+                        once: false,
                     }}
                     animate={mainControls}
                     transition={{ duration: 1  }}
@@ -53,7 +57,8 @@ function Body() {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{
-                        margin: "100px"
+                        margin: "100px",
+                        once: false,
                     }}
                     animate={mainControls}
                     transition={{ duration: 1  }}
@@ -70,7 +75,8 @@ function Body() {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{
-                        margin: "-200px"
+                        margin: "300px",
+                        once: false,
                     }}                    
                     animate={mainControls}
                     transition={{ duration: 1  }}

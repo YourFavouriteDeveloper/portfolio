@@ -34,7 +34,7 @@ const About = forwardRef((props, ref) => {
                     }}
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ margin: "300px" }}
+                    viewport={{ margin: "25px",once: false, }}
                     animate={mainControls}
                     transition={{ duration: 1 }}
                 />
@@ -47,7 +47,7 @@ const About = forwardRef((props, ref) => {
                     }}
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ margin: "0px" }}
+                    viewport={{ margin: "0px",once: false, }}
                     animate={mainControls}
                     transition={{ duration: 1 }}
                 />
@@ -60,7 +60,7 @@ const About = forwardRef((props, ref) => {
                     }}
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ margin: "0px" }}
+                    viewport={{ margin: "0px",once: false, }}
                     animate={mainControls}
                     transition={{ duration: 1 }}
                 />
@@ -76,7 +76,7 @@ const About = forwardRef((props, ref) => {
                     }}
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ margin: "10px" }}
+                    viewport={{ margin: "0px",once: false, }}
                     animate={mainControls}
                     transition={{ duration: 1 }}
                 >
@@ -91,7 +91,7 @@ const About = forwardRef((props, ref) => {
                     }}
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{ margin: "25px" }}
+                    viewport={{ margin: "0px",once: false, }}
                     animate={mainControls}
                     transition={{ duration: 1 }}
                 >
@@ -109,13 +109,13 @@ const About = forwardRef((props, ref) => {
                 }}
                 initial="hidden"
                 whileInView="visible"
-                viewport={{ margin: "50px" }}
+                viewport={{ margin: "0px", once: false, }}
                 animate={mainControls}
                 transition={{ duration: 1.25}}
                 />
                 <motion.p 
                     className={styles.subsubtitle}
-                    style={{marginTop:"155px"}}
+                    style={{marginTop:"155px",once: false,}}
                     variants={{
                         hidden: { x: -175 },
                         visible: { x: 0 }

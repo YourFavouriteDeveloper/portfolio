@@ -1,18 +1,18 @@
 html, body {
   overflow-x: hidden;
-  margin: 0;
-  padding: 0;
   font-family: 'PoppinsLight', sans-serif;
 }
 
 .container {
   background-color: rgb(238, 232, 220);
-  min-height: 60vw;
+  min-height: 50rem;
   box-sizing: border-box;
   position: relative;
   z-index: -10;
   overflow-x: hidden;
+  overflow-y : hidden;
 }
+
 
 .information {
   display: flex;
@@ -20,14 +20,16 @@ html, body {
   align-items: flex-end;
   position: relative;
   z-index: 10;
+  padding-right: 4vh;
+  margin-bottom: -61vh;
 }
 
 .title {
   position: relative;
   font-size: clamp(2.5rem, 8vw, 8rem);
   text-align: right;
-  margin-top: 13vw;
-  margin-right: 4vh;
+  padding-top: 10rem;
+  margin-top: 8vw;
   color: rgb(39, 39, 39);
   font-family: 'PoppinsExtraLight', sans-serif;
 }
@@ -35,19 +37,21 @@ html, body {
 .subtitle {
   font-size: clamp(0.7rem, 1vw, 1.1rem);
   text-align: right;
-  margin-top: -7.5vw;
-  margin-right: 3vw;
-  width: 44vw;
+  margin-top: -1.3rem;
+  top: -7vw;
+  position: relative;
+  width: 45vw;
   color: rgb(39, 39, 39);
 }
 
 .information img {
-  width: clamp(40vw, 55vw, 100vw);
+  width: clamp(30vw, 55%, 80vw);
   height: auto;
   border-radius: 10px;
   position: absolute;
-  top: 15vh;
-  right: 48vw;
+  top:  18rem;
+  margin-top: -6vw;
+  right: 50vw;
   align-self: flex-start;
   z-index: -1;
   opacity: 0.9;
@@ -55,10 +59,13 @@ html, body {
 
 .subsubtitle {
   font-size: clamp(1rem, 2vw, 2rem);
-  max-width: 80%;
-  top: 20vw;
+  max-width: 70%;
+  top: -18rem;
+  padding-top: 30vw;
   text-align: left;
-  right: 17vw;
+  right: 25vw;
+  margin-bottom: -2rem;
+  padding-left: 8rem;
   color: rgb(39, 39, 39);
   background: transparent;
   border-radius: 15px;
@@ -70,8 +77,9 @@ html, body {
   position: relative;
   font-size: clamp(2rem, 8vw, 6rem);
   text-align: center;
-  top: 10vw;
-  padding-bottom: 4%;
+  top: -45vh ;
+  margin-bottom: 8rem;
+  padding-bottom: 0.3vh;
   padding-right: 5%;
   border-radius: 15px;
   color: rgb(39, 39, 39);
@@ -87,30 +95,33 @@ html, body {
 }
 
 .circle1 {
-  width: 70vw;
-  height: 40vw;
-  top: 2%;
-  right: -10%;
+  width: 80vw;
+  height: 45vw;
+  top: 11.9rem;
+  margin-top: -3vw;
+  right: -17%;
   z-index: -1;
 }
 
 .circle2 {
-  width: 60vw;
-  height: 40vw;
-  top: 7%;
-  right: -7%;
+  width: 80vw;
+  height: 45vw;
+  top: 13.9rem;
+  margin-top: 1vw;
+  right: -20%;
   z-index: -2;
 }
 
 .circle3 {
-  width: 60vw;
-  height: 40vw;
-  top: 12%;
-  right: -12%;
+  width: 80vw;
+  height: 45vw;
+  top: 15.9rem;
+  margin-top: 5vw;
+  right: -24%;
   z-index: -3;
 }
 
-/* Optional animation */
+
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(-20px); }

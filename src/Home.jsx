@@ -17,9 +17,15 @@ function Home() {
       <Nav 
             scrollToAbout={() => aboutRef.current.scrollIntoView({ behavior: "smooth" })}
             scrollToExperience={() => {
-              const remInPx = parseFloat(getComputedStyle(document.documentElement).fontSize);
-              const yOffset = -window.innerHeight * 0.15 - remInPx * 5;
-              const y = experienceRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset;
+              const rem = parseFloat(getComputedStyle(document.documentElement).fontSize);
+              const width = window.innerWidth;
+              const height = window.innerHeight;
+
+              const vhOffset = height * (0.004*rem + width*0.0000004 + 0.03 * Math.min(width / 924, 2)); 
+              const remOffset = rem * (0.0001*height + 3.5 * Math.min(width / 1024, 1.5));       
+              const yOffset = -vhOffset - remOffset;
+              const y = experienceRef.current.getBoundingClientRect().top + window.scrollY + yOffset;
+
               window.scrollTo({ top: y, behavior: 'smooth' });
             }}
             scrollToProject={() => projectRef.current.scrollIntoView({ behavior: "smooth" })}

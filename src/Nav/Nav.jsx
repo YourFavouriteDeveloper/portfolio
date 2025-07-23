@@ -8,7 +8,11 @@ function Nav({ scrollToAbout,scrollToExperience,scrollToProject,scrollToContact,
     const [isVisible, setIsVisible] = useState(false);
     const [clicker, setClicker] = useState(null);
     const [component, setComponent] = useState(null);
-    const isAboutInView = useInView(aboutRef, {amount: 0.53, once: false });
+    const yOffset = -window.innerHeight * 0.93;
+    const isAboutInView = useInView(aboutRef, {
+        margin: `0px 0px ${yOffset}px 0px`,
+        once: false,
+    });
     const isExperienceInView = useInView(experienceRef, {amount: 0.42, once: false });
     const isProjectInView = useInView(projectRef, {amount: 0.53, once: false });
     const isContactInView = useInView(contactRef, {amount: 0.53, once: false });

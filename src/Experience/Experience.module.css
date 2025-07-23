@@ -7,7 +7,7 @@ html, body {
   background-color: rgb(39, 39, 39);
   min-height: 210vh; 
   position: relative;
-  z-index: -3;
+  z-index: -30;
   overflow-x: hidden;
   overflow-y: hidden;
 
