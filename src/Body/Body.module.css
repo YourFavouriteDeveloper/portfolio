@@ -21,7 +21,7 @@
   font-size: clamp(3rem  , 30rem, 8vw);
   white-space: normal;
   text-align: left;
-  padding-top: 22rem;
+  padding-top: 18rem;
   margin-top: 4vw;
   line-height: 0.9;
   padding-left: 0.5vw;
@@ -98,7 +98,7 @@
   min-height: 100vh;
 }
 .title {
-  padding-top: 24rem;
+  padding-top: 21rem;
   margin-top: 3vw;
   font-size: clamp(7rem  , 7rem, 8vw);
 }
@@ -142,7 +142,7 @@
   min-height: 100vh;
 }
 .title {
-  padding-top: 19rem;
+  padding-top: 16rem;
   margin-top: 3vw;
   font-size: clamp(9rem  , 7rem, 8vw);
 }
@@ -189,7 +189,7 @@
 }
 
 .title {
-  padding-top: 20rem;
+  padding-top: 19rem;
   margin-top: 3vw;
   font-size: clamp(6.85rem  , 8rem, 8vw);
 }
@@ -241,7 +241,7 @@
 }
 
 .title {
-  padding-top: 21rem;
+  padding-top: 20rem;
   margin-top: 3vw;
   font-size: clamp(5.5rem  , 7rem, 8vw);
 }
@@ -254,7 +254,7 @@
 .circle1 {
   width: 120vw;
   height: 85vw;
-  top: 18rem;
+  top: 15rem;
   margin-top: -32vw;
   left: -28%;
   z-index: -4;
@@ -263,7 +263,7 @@
 .circle2 {
   width: 120vw;
   height: 85vw;
-  top: 20rem;
+  top: 17rem;
   margin-top: -25vw;
   left: -36%;
   z-index: -5;
@@ -272,7 +272,7 @@
 .circle3 {
   width: 120vw;
   height: 85vw;
-  top: 22rem;
+  top: 19rem;
   margin-top: -18vw;
   left: -44%;
   z-index: -6;
@@ -302,7 +302,7 @@
 
 
 .title {
-  padding-top: 21rem;
+  padding-top: 20.5rem;
   margin-top: 3vh;
   font-size: clamp(4.3rem  , 6rem, 8vw);
 }
@@ -316,7 +316,7 @@
 .circle1 {
   width: 145vw;
   height: 125vw;
-  top: 12rem;
+  top: 9rem;
   margin-top: -32vw;
   left: -50%;
   z-index: -4;
@@ -325,7 +325,7 @@
 .circle2 {
   width: 145vw;
   height: 125vw;
-  top: 15rem;
+  top: 12rem;
   margin-top: -25vw;
   left: -58%;
   z-index: -5;
@@ -334,7 +334,7 @@
 .circle3 {
   width: 145vw;
   height: 125vw;
-  top: 18rem;
+  top: 15rem;
   margin-top: -18vw;
   left: -66%;
   z-index: -6;
