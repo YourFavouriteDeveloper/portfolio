@@ -60,7 +60,7 @@ html, body {
 
 .subsubtitle {
   font-size: clamp(1rem, 2vw, 2rem);
-  max-width: 70%;
+  width: 70%;
   top: -18rem;
   padding-top: 30vw;
   text-align: left;
@@ -153,7 +153,7 @@ html, body {
 
 .subsubtitle {
   font-size: clamp(0.9rem, 2vw, 2rem);
-  width: 120rem;
+  width: 70%;
   top: -8rem;
   padding-top: 20vw;
 }
@@ -210,7 +210,7 @@ html, body {
 
 .subsubtitle {
   font-size: clamp(1rem, 2vw, 2rem);
-  width: 120rem;
+  width: 70%;
   top: -13rem;
   padding-top: 20vw;
 }
@@ -280,8 +280,8 @@ html, body {
 
 .subsubtitle {
   font-size: clamp(1.2rem, 2vw, 2rem);
-  width: 120rem;
   top: -13rem;
+  width: 70%;
   padding-top: 20vw;
 }
 
@@ -330,56 +330,54 @@ html, body {
 .title {
   font-size: clamp(4rem, 8vw, 8rem);
   padding-top: 1rem;
-  margin-right: -1vh;
+  margin-right: -2vh;
 }
 
 .subtitle {
-  font-size: clamp(1rem, 1vw, 1.1rem);
-  margin-top: -2.3rem;
-  top: -6vw;
-  width: 49vw;
-  margin-right: -0.4vh;
+  font-size: clamp(0.9rem, 1vw, 1.1rem);
+  margin-top: -1.7rem;
+  top: -9vw;
+  width: 70vw;
+  margin-right: -1.5vh;
 
 }
-
 .information img {
-  width: clamp(30vw, 78%, 80vw);
-  top:  8rem;
-  right: 35vw;
-
+  display: none;
 }
 
 .subsubtitle {
-  font-size: clamp(1.1rem, 2vw, 2rem);
-  width: 120rem;
-  top: -10rem;
-  padding-top: 20vw;
+  font-size: clamp(1rem, 2vw, 2rem);
+  width: 100%;
+  left:2vh;
+  top: -5rem;
+  padding-top: 25vw;
 }
 
+
 .circle1 {
-  width: 120vw;
-  height: 95vw;
-  top: 6rem;
+  width: 130vw;
+  height: 85vw;
+  top: 1rem;
   margin-top: -3vw;
-  right: -45%;
+  right: -50%;
   z-index: -1;
 }
 
 .circle2 {
-  width: 120vw;
-  height: 95vw;
-  top: 8rem;
+  width: 130vw;
+  height: 85vw;
+  top: 4rem;
   margin-top: 1vw;
-  right: -50%;
+  right: -60%;
   z-index: -2;
 }
 
 .circle3 {
-  width: 120vw;
-  height: 95vw;
-  top: 10rem;
+  width: 130vw;
+  height: 85vw;
+  top: 7rem;
   margin-top: 5vw;
-  right: -55%;
+  right: -70%;
   z-index: -3;
 }
 
@@ -400,59 +398,57 @@ html, body {
 }
 
 .title {
-  font-size: clamp(3rem, 8vw, 8rem);
+  font-size: clamp(4rem, 8vw, 8rem);
   padding-top: 1rem;
   margin-right: -2vh;
 }
 
 .subtitle {
-  font-size: clamp(0.7rem, 1vw, 1.1rem);
+  font-size: clamp(0.9rem, 1vw, 1.1rem);
   margin-top: -1.7rem;
-  top: -7vw;
-  width: 50vw;
+  top: -13vw;
+  width: 85vw;
   margin-right: -1.5vh;
 
 }
 
 .information img {
-  width: clamp(30vw, 65%, 80vw);
-  top:  7rem;
-  right: 45vw;
-
+  display: none;
 }
 
 .subsubtitle {
-  font-size: clamp(0.8rem, 2vw, 2rem);
-  width: 120rem;
+  font-size: clamp(1rem, 2vw, 2rem);
+  width: 100%;
+  left:2vh;
   top: -7rem;
   padding-top: 25vw;
 }
 
 
 .circle1 {
-  width: 110vw;
+  width: 140vw;
   height: 85vw;
-  top: 3rem;
+  top: 4rem;
   margin-top: -3vw;
-  right: -45%;
+  right: -40%;
   z-index: -1;
 }
 
 .circle2 {
-  width: 110vw;
+  width: 140vw;
   height: 85vw;
-  top: 5rem;
+  top: 7rem;
   margin-top: 1vw;
-  right: -50%;
+  right: -55%;
   z-index: -2;
 }
 
 .circle3 {
-  width: 110vw;
+  width: 140vw;
   height: 85vw;
-  top: 7rem;
+  top: 10rem;
   margin-top: 5vw;
-  right: -55%;
+  right: -70%;
   z-index: -3;
 }
 
