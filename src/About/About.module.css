@@ -29,8 +29,8 @@ html, body {
   position: relative;
   font-size: clamp(2.5rem, 8vw, 8rem);
   text-align: right;
-  padding-top: 10rem;
-  margin-top: 8vw;
+  padding-top: 3rem;
+  margin-top: 14vw;
   color: rgb(39, 39, 39);
   font-family: 'PoppinsExtraLight', sans-serif;
 }
@@ -50,8 +50,8 @@ html, body {
   height: auto;
   border-radius: 10px;
   position: absolute;
-  top:  18rem;
-  margin-top: -6vw;
+  top:  10rem;
+  margin-top: 1vw;
   right: 50vw;
   align-self: flex-start;
   z-index: -1;
@@ -86,7 +86,7 @@ html, body {
 .circle1 {
   width: 80vw;
   height: 45vw;
-  top: 11.9rem;
+  top: 7rem;
   margin-top: -3vw;
   right: -17%;
   z-index: -1;
@@ -95,7 +95,7 @@ html, body {
 .circle2 {
   width: 80vw;
   height: 45vw;
-  top: 13.9rem;
+  top: 9rem;
   margin-top: 1vw;
   right: -20%;
   z-index: -2;
@@ -104,7 +104,7 @@ html, body {
 .circle3 {
   width: 80vw;
   height: 45vw;
-  top: 15.9rem;
+  top: 11rem;
   margin-top: 5vw;
   right: -24%;
   z-index: -3;
