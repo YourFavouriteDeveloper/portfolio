@@ -142,7 +142,7 @@
   min-height: 100vh;
 }
 .title {
-  padding-top: 21rem;
+  padding-top: 19rem;
   margin-top: 3vw;
   font-size: clamp(9rem  , 7rem, 8vw);
 }
@@ -189,7 +189,7 @@
 }
 
 .title {
-  padding-top: 25rem;
+  padding-top: 20rem;
   margin-top: 3vw;
   font-size: clamp(6.85rem  , 8rem, 8vw);
 }
@@ -202,7 +202,7 @@
 .circle1 {
   width: 120vw;
   height: 85vw;
-  top: 20rem;
+  top: 18rem;
   margin-top: -32vw;
   left: -24%;
   z-index: -4;
@@ -211,7 +211,7 @@
 .circle2 {
   width: 120vw;
   height: 85vw;
-  top: 22rem;
+  top: 20rem;
   margin-top: -25vw;
   left: -32%;
   z-index: -5;
@@ -220,7 +220,7 @@
 .circle3 {
   width: 120vw;
   height: 85vw;
-  top: 24rem;
+  top: 22rem;
   margin-top: -18vw;
   left: -40%;
   z-index: -6;
@@ -241,7 +241,7 @@
 }
 
 .title {
-  padding-top: 24rem;
+  padding-top: 21rem;
   margin-top: 3vw;
   font-size: clamp(5.5rem  , 7rem, 8vw);
 }
@@ -254,27 +254,27 @@
 .circle1 {
   width: 120vw;
   height: 85vw;
-  top: 20rem;
+  top: 18rem;
   margin-top: -32vw;
-  left: -24%;
+  left: -28%;
   z-index: -4;
 }
 
 .circle2 {
   width: 120vw;
   height: 85vw;
-  top: 22rem;
+  top: 20rem;
   margin-top: -25vw;
-  left: -32%;
+  left: -36%;
   z-index: -5;
 }
 
 .circle3 {
   width: 120vw;
   height: 85vw;
-  top: 24rem;
+  top: 22rem;
   margin-top: -18vw;
-  left: -40%;
+  left: -44%;
   z-index: -6;
 }
 }
@@ -302,7 +302,7 @@
 
 
 .title {
-  padding-top: 26rem;
+  padding-top: 21rem;
   margin-top: 3vh;
   font-size: clamp(4.3rem  , 6rem, 8vw);
 }
@@ -316,7 +316,7 @@
 .circle1 {
   width: 145vw;
   height: 125vw;
-  top: 16rem;
+  top: 12rem;
   margin-top: -32vw;
   left: -50%;
   z-index: -4;
@@ -325,7 +325,7 @@
 .circle2 {
   width: 145vw;
   height: 125vw;
-  top: 19rem;
+  top: 15rem;
   margin-top: -25vw;
   left: -58%;
   z-index: -5;
@@ -334,7 +334,7 @@
 .circle3 {
   width: 145vw;
   height: 125vw;
-  top: 22rem;
+  top: 18rem;
   margin-top: -18vw;
   left: -66%;
   z-index: -6;
@@ -364,7 +364,7 @@
 
 
 .title {
-  padding-top: 26rem;
+  padding-top: 21rem;
   margin-top: 3vh;
   font-size: clamp(3.4rem  , 6rem, 8vw);
 }
@@ -378,7 +378,7 @@
 .circle1 {
   width: 145vw;
   height: 125vw;
-  top: 16rem;
+  top: 12rem;
   margin-top: -32vw;
   left: -50%;
   z-index: -4;
@@ -387,7 +387,7 @@
 .circle2 {
   width: 145vw;
   height: 125vw;
-  top: 19rem;
+  top: 15rem;
   margin-top: -25vw;
   left: -58%;
   z-index: -5;
@@ -396,7 +396,7 @@
 .circle3 {
   width: 145vw;
   height: 125vw;
-  top: 22rem;
+  top: 18rem;
   margin-top: -18vw;
   left: -66%;
   z-index: -6;
