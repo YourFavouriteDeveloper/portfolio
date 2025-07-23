@@ -263,7 +263,7 @@ html, body {
 }
 
 .subtitle {
-  font-size: clamp(1rem, 1vw, 1.1rem);
+  font-size: clamp(0.9rem, 1vw, 1.1rem);
   margin-top: -2.3rem;
   top: -8vw;
   width: 49vw;
@@ -322,9 +322,9 @@ html, body {
 
 
 
-@media (max-width: 640px) {
+@media (max-width: 580px) {
 .container {
-  padding-bottom: 55vh;
+  padding-bottom: 65vh;
 }
 
 .title {
@@ -334,10 +334,10 @@ html, body {
 }
 
 .subtitle {
-  font-size: clamp(0.9rem, 1vw, 1.1rem);
+  font-size: clamp(0.8rem, 1vw, 1.1rem);
   margin-top: -1.7rem;
   top: -9vw;
-  width: 70vw;
+  width: 80vw;
   margin-right: -1.5vh;
 
 }
@@ -349,7 +349,7 @@ html, body {
   font-size: clamp(1rem, 2vw, 2rem);
   width: 100%;
   left:2vh;
-  top: -5rem;
+  top: 1rem;
   padding-top: 25vw;
 }
 
@@ -359,7 +359,7 @@ html, body {
   height: 85vw;
   top: 1rem;
   margin-top: -3vw;
-  right: -50%;
+  right: -40%;
   z-index: -1;
 }
 
@@ -368,7 +368,7 @@ html, body {
   height: 85vw;
   top: 4rem;
   margin-top: 1vw;
-  right: -60%;
+  right: -50%;
   z-index: -2;
 }
 
@@ -377,7 +377,7 @@ html, body {
   height: 85vw;
   top: 7rem;
   margin-top: 5vw;
-  right: -70%;
+  right: -60%;
   z-index: -3;
 }
 
@@ -394,7 +394,7 @@ html, body {
 
 @media (max-width: 450px) {
   .container {
-  padding-bottom: 55vh;
+  padding-bottom: 60vh;
 }
 
 .title {
@@ -404,7 +404,7 @@ html, body {
 }
 
 .subtitle {
-  font-size: clamp(0.9rem, 1vw, 1.1rem);
+  font-size: clamp(0.8rem, 1vw, 1.1rem);
   margin-top: -1.7rem;
   top: -13vw;
   width: 85vw;
@@ -420,7 +420,7 @@ html, body {
   font-size: clamp(1rem, 2vw, 2rem);
   width: 100%;
   left:2vh;
-  top: -7rem;
+  top: -3rem;
   padding-top: 25vw;
 }
 
