@@ -325,6 +325,7 @@ html, body {
 @media (max-width: 580px) {
 .container {
   padding-bottom: 65vh;
+  padding-top: 3vh;
 }
 
 .title {

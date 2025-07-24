@@ -29,7 +29,7 @@ const About = forwardRef((props, ref) => {
                 <motion.div 
                     className={styles.circle1}
                     variants={{
-                        hidden: { x: 175, y: 175, rotate: -25 },
+                        hidden: { x: 105, y: 105, rotate: -25 },
                         visible: { x: 0, y: 0, rotate: 0 }
                     }}
                     initial="hidden"
@@ -42,7 +42,7 @@ const About = forwardRef((props, ref) => {
                 <motion.div 
                     className={styles.circle2}
                     variants={{
-                        hidden: { x: 175, y: 175, rotate: -25 },
+                        hidden: { x: 105, y: 105, rotate: -25 },
                         visible: { x: 0, y: 0, rotate: 0 }
                     }}
                     initial="hidden"
@@ -55,7 +55,7 @@ const About = forwardRef((props, ref) => {
                 <motion.div 
                     className={styles.circle3}
                     variants={{
-                        hidden: { x: 175, y: 175, rotate: -25 },
+                        hidden: { x: 105, y: 105, rotate: -25 },
                         visible: { x: 0, y: 0, rotate: 0 }
                     }}
                     initial="hidden"
