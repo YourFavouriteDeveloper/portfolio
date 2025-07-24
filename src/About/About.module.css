@@ -184,6 +184,7 @@ html, body {
 @media (max-width: 1024px) {
 .container {
   padding-bottom: 45vh;
+  padding-top: 2vh;
 }
 
 .title {
@@ -254,6 +255,7 @@ html, body {
 @media (max-width: 768px) {
 .container {
   padding-bottom: 50vh;
+  padding-top: 3vh;
 }
 
 .title {

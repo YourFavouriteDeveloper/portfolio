@@ -24,12 +24,11 @@ html, body {
 .container {
   margin: 0;
   background-color: rgb(39, 39, 39);
-  min-height: 210vh; 
+  min-height: 230vh; 
   position: relative;
   z-index: -30;
   overflow-x: hidden;
   overflow-y: hidden;
-
   
 }
 
@@ -37,26 +36,27 @@ html, body {
 
 
 .information {
-  position: relative;
+  position: absolute;
   align-items: center;
   justify-content: space-between;
   z-index: 10;
   margin-left: 10%;
-  margin-top: 5%;
+  margin-top: -1%;
   width:80%;
-  height: 1800px;
+  height: 195vh;
   background-color: rgb(26, 25, 25);
-  border-radius: 60px;
+  border-radius: 6vh;
 }
 
 .title {
   margin: 0px;
   color: rgb(245, 239, 227) ;         
-  font-size: 50px;
+  font-size: clamp(2.3vh, 4vw, 3.125rem);
   white-space: nowrap;
   text-align: left;
-  padding-top: 20px;
-  padding-left: 70px;
+  padding-top: 3.5vh;
+  padding-left: 3vw;
+  right: -1rem;
   font-family: 'PoppinsExtraLight';
   position: relative;
   z-index: 10;
@@ -65,7 +65,7 @@ html, body {
 
 .subtitle {
   color: rgb(245, 239, 227) ;         
-  font-size: 30px;
+  font-size: clamp(1rem, 2.5vw, 1.875rem);
   max-width: 1000px;
   text-align: left;
   padding-left: 25px;
@@ -77,7 +77,7 @@ html, body {
 
 .subsubtitle {
   color: rgb(245, 239, 227) ;         
-  font-size: 20px;
+  font-size: clamp(1.5vh, 2vw, 1.25rem);
   max-width: 1200px;
   text-align: left;
   padding-left: 35px;
@@ -91,10 +91,12 @@ html, body {
 
 li {
     list-style: none;
+    position: relative;
     background-color:rgb(19, 18, 18);
     width: 95%;
     border-radius: 40px;
-    margin-left: 11px;
+    margin-left: 2.1vw;
+    right: 2rem;
     padding: 10px 10px;
     padding-bottom: 30px;
 }
@@ -109,4 +111,83 @@ li {
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(-20px); }
+}
+
+
+@media (max-width: 1280px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 580px) {
+
+}
+
+@media (max-width: 450px) {
+
+.experienceTitle {
+  padding-top: 30vw;
+}
+
+.information {
+  height: 145vh;
+  border-radius: 4vh;
+  width:90%;
+  margin-left: 5%;
+}
+
+.title {     
+  font-size: clamp(2.6vh, 4vw, 3.125rem);
+  padding-top: 2.4vh;
+  padding-left: 2vw;
+  right: -1rem;
+
+}
+
+.subtitle {        
+  font-size: clamp(1rem, 2.5vw, 1.875rem);
+  max-width: 1000px;
+  text-align: left;
+  padding-left: 2px;
+}
+
+.subsubtitle {     
+  font-size: clamp(1.2vh, 2vw, 1.25rem);
+  min-width: 300px;
+  text-align: left;
+  top: -10%;
+  padding-left: 1px;
+  font-family: 'PoppinsExtraLight';
+  z-index: 10;
+
+
+}
+
+li {
+    list-style: none;
+    position: relative;
+    background-color:rgb(19, 18, 18);
+    width: 98%;
+    border-radius: 25px;
+    margin-left: 1.4vw;
+    right: 2rem;
+    padding: 5px 10px;
+    padding-bottom: 15px;
+}
+
+.afterInitial {
+    margin-top: 10px;
+}
+
+.container {
+  min-height: 175vh; 
+}
+
 }
