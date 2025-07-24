@@ -31,7 +31,7 @@ html, body {
   white-space: nowrap;
   font-family: 'PoppinsExtraLight';
   z-index: 10;
-  text-shadow: 0px 0px 10px rgb(22, 22, 22);
+
 
 }
 
@@ -169,15 +169,15 @@ html, body {
 
 .title {
   left: 9%;
-  top: 15%;       
+  top: 10%;       
   font-size: clamp(3.5rem, 12vw, 9.375rem);
 }
 
 .cover {
     width: 88%;
-    height: 30.75rem;
+    height: 30rem;
     left: 6%;
-    top: 32%;
+    top: 27%;
 }
 
 
@@ -202,11 +202,11 @@ html, body {
 }
 
 .link {
-    top: 75%;
+    top: 77%;
     left:-34%;
     font-size: clamp(0.8rem, 2.5vw, 1.875rem);
     width: 50%;
-    margin-top: 15px;
+    margin-top: 6%;
     margin-left: 39%;
     padding: 10px 50px;
     border-radius: 20px;
