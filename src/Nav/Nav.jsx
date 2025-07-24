@@ -75,7 +75,7 @@ function Nav({ scrollToAbout,scrollToExperience,scrollToProject,scrollToContact,
                     <p className={styles.about} >
                     I have been actively participated in many Software Engineer Internships, worked as a employee at certain companies.
                     </p>
-                    <p className={styles.about}>My experience is not only limited with internships, but also been active in volunteering, playing crucial role as a team member/ team leader.</p>
+                    <p className={styles.about}>My experience is not only limited with internships, but also been active in volunteering, playing crucial role as a team member.</p>
                     <p className={styles.about} >Click <b>More Experience</b> to read more about my experience.</p>
                     <a className={styles.moreExperience} onClick={handleExperienceClick}>More Experience</a>  
                     </>
