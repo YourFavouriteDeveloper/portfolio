@@ -27,7 +27,7 @@ html, body {
   top: -5%;
   position: absolute;
   color: rgb(221, 217, 207) ;         
-  font-size: 150px;
+  font-size: clamp(2rem, 12vw, 9.375rem);
   white-space: nowrap;
   font-family: 'PoppinsExtraLight';
   z-index: 10;
@@ -40,7 +40,7 @@ html, body {
     background-color: rgba(29, 29, 29, 0.747);
     border-radius: 30px;
     width: 88%;
-    height: 460px;
+    height: 28.75rem;
     z-index: 9;
     left: 5.5%;
     top: 32%;
@@ -52,7 +52,7 @@ html, body {
   position: absolute;
   color: rgb(245, 239, 227) ; 
   white-space: nowrap;        
-  font-size: 70px;
+  font-size: clamp(1.8rem, 5vw, 4.375rem);
   text-align: left;
   font-family: 'PoppinsExtraLight';
   z-index: 10;
@@ -68,7 +68,7 @@ html, body {
     cursor: pointer;
     font-family: 'PoppinsExtraLight';
     z-index: 20;
-    font-size:30px;
+    font-size: clamp(1rem, 2.5vw, 1.875rem);
     width: 50%;
     margin-top: 15px;
     margin-left: 39%;
@@ -98,7 +98,7 @@ html, body {
   left: 3.3%;
   position: absolute;
   color: rgb(245, 239, 227) ;         
-  font-size: 23px;
+  font-size: clamp(1rem, 2vw, 1.4375rem);
   max-width: 1300px;
   text-align: left;
   padding-left: 35px;
@@ -117,3 +117,109 @@ html, body {
     opacity: 60%;
     z-index: 1;
 }
+
+
+
+@media (max-width: 1480px) {
+
+
+}
+
+@media (max-width: 1280px) {
+
+}
+
+
+
+
+@media (max-width: 1024px) {
+
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+}
+
+
+
+
+
+@media (max-width: 650px) {
+
+
+}
+
+
+
+
+@media (max-width: 450px) {
+
+.container {
+  padding-top: 6vh;
+  min-height: 100vh; 
+
+  
+}
+
+
+.title {
+  left: 9%;
+  top: 15%;       
+  font-size: clamp(3.5rem, 12vw, 9.375rem);
+}
+
+.cover {
+    width: 88%;
+    height: 30.75rem;
+    left: 6%;
+    top: 32%;
+}
+
+
+.subtitle {
+  top: -3%;
+  left: 6%;
+  white-space:inherit;  
+  line-height: 1;      
+  font-size: clamp(2.1rem, 5vw, 4.375rem);
+
+
+
+}
+
+.subsubtitle {
+  top: 20%;
+  left: -1%;       
+  font-size: clamp(0.9rem, 2vw, 1.4375rem);
+  max-width: 240px;
+  padding-left: 35px;
+
+}
+
+.link {
+    top: 75%;
+    left:-34%;
+    font-size: clamp(0.8rem, 2.5vw, 1.875rem);
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 39%;
+    padding: 10px 50px;
+    border-radius: 20px;
+ 
+}
+
+.video {
+    margin-top: 10%;
+    width: 360%;
+    filter: brightness(20%);
+    opacity: 60%;
+    z-index: 1;
+}
+
+}
+
