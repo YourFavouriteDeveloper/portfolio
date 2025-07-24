@@ -1,6 +1,6 @@
-body {
+html,body {
     margin: 0px;
-
+    font-family: 'PoppinsExtraLight';
     text-align: center;
 
 
@@ -1101,7 +1101,7 @@ body {
 }
 
     .boardAbout .about {
-        font-weight: bold;
+        font-weight: normal;
         color: rgb(39, 39, 39);
         margin:1px;
         font-size: 10.5px;
@@ -1110,7 +1110,7 @@ body {
 }
 
     .boardAbout .moreAbout {
-    font-weight: bold;
+    font-weight: normal;
     color: rgb(39, 39, 39);
     background-color: rgba(250, 241, 224, 0.548);
     font-size:12px;
@@ -1123,7 +1123,7 @@ body {
 
 
    .boardAbout .moreExperience {
-        font-weight: bold;
+        font-weight: normal;
         color: rgb(39, 39, 39);
         background-color: rgba(250, 241, 224, 0.548);
         max-width: 30%;
@@ -1135,7 +1135,7 @@ body {
     }
 
     .boardAbout .contact {
-        font-weight: bold;
+        font-weight: normal;
         color: rgb(39, 39, 39);
         margin:1px;
         font-size: 10.5px;
@@ -1144,7 +1144,7 @@ body {
     }
 
     .boardAbout .moreContact {
-        font-weight: bold;
+        font-weight: normal;
         color: rgb(39, 39, 39);
         background-color: rgba(250, 241, 224, 0.548);
         min-width: 40%;
