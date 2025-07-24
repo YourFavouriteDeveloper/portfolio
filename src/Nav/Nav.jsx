@@ -59,36 +59,40 @@ function Nav({ scrollToAbout,scrollToExperience,scrollToProject,scrollToContact,
 
     let onBoard = null
     const about = <>
-                    <p className={styles.about} style={{paddingTop: "400px"}}>
+                    <div className={styles.space}></div>
+                    <p className={styles.about} >
                     I am Nihad Mammadov, a dedicated <b>Full-Stack Developer</b> who currently studies Computer Engineering at Baku Higher Oil School.
                     </p>
                     <p className={styles.about}>Currently developing my Front-end skills, as the portfolio will get updated for each improvement made in those skills.</p>
                     <p className={styles.about}>Click <b>More About</b> to get more information about me.</p>
-                    <a className={styles.moreAbout} onClick={handleAboutClick}>More About</a>
+                    <a className={styles.moreAbout}  onClick={handleAboutClick}>More About</a>
                 </>
 
 
     
     const experience = <>
-                    <p className={styles.about} style={{paddingTop: "400px"}}>
+                    <div className={styles.space}></div>
+                    <p className={styles.about} >
                     I have been actively participated in many Software Engineer Internships, worked as a employee at certain companies.
                     </p>
                     <p className={styles.about}>My experience is not only limited with internships, but also been active in volunteering, playing crucial role as a team member/ team leader.</p>
                     <p className={styles.about} >Click <b>More Experience</b> to read more about my experience.</p>
-                    <a className={styles.moreAbout}  onClick={handleExperienceClick}>More Experience</a>  
+                    <a className={styles.moreExperience} onClick={handleExperienceClick}>More Experience</a>  
                     </>
 
     const project = <>
-                    <p className={styles.about} style={{paddingTop: "400px"}}>
+                    <div className={styles.space}></div>
+                    <p className={styles.about} >
                     It is not only about learning, but implementing those skills in projects that will boost any Developer's career.
                     </p>
                     <p className={styles.about}>To improve my Backend and Frontend skills, I have worked on some of the little, yet worthy to check projects.</p>
                     <p className={styles.about}>Click <b>More Projects</b> to check my projects.</p>
-                    <a className={styles.moreAbout}  onClick={handleProjectClick}>More Project</a>  
+                    <a className={styles.moreExperience}  onClick={handleProjectClick}>More Project</a>  
                     </>
 
     const contact = <>
-                    <p className={styles.contact} style={{paddingTop: "410px"}}>
+                    <div className={styles.spaceContact}></div>
+                    <p className={styles.contact}>
                     If you have any recommedations about improving my Portfolio or need any help of my level, feel free to contact with me.
                     </p>
                     <p className={styles.contact} >Click <b>More Contact</b> to contact with me.</p>

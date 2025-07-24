@@ -395,6 +395,7 @@ html, body {
 @media (max-width: 450px) {
   .container {
   padding-bottom: 60vh;
+  padding-top: 4vh;
 }
 
 .title {

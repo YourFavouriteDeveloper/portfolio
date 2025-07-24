@@ -142,9 +142,9 @@
   min-height: 100vh;
 }
 .title {
-  padding-top: 16rem;
+  padding-top: 21rem;
   margin-top: 3vw;
-  font-size: clamp(9rem  , 7rem, 8vw);
+  font-size: clamp(6.7rem  , 7rem, 8vw);
 }
 
 .subtitle {
@@ -157,7 +157,7 @@
   height: 75vw;
   top: 18rem;
   margin-top: -32vw;
-  left: -24%;
+  left: -20%;
   z-index: -4;
 }
 
@@ -166,7 +166,7 @@
   height: 75vw;
   top: 20rem;
   margin-top: -25vw;
-  left: -30%;
+  left: -25%;
   z-index: -5;
 }
 
@@ -175,7 +175,7 @@
   height: 75vw;
   top: 22rem;
   margin-top: -18vw;
-  left: -36%;
+  left: -30%;
   z-index: -6;
 }
 }

@@ -817,6 +817,7 @@ body {
     }
 
     .about {
+        top: 200px;
         margin:2px;
         color: aliceblue;
         font-size: 6px;
@@ -836,6 +837,17 @@ body {
         text-decoration: none;
         background-color: rgb(39, 39, 39);
         padding: 10px 10px;
+        border-radius: 30px;
+        transition: all 0.3s ease; 
+    }
+
+
+    .moreExperience {
+        cursor: pointer;
+        font-family: 'PoppinsExtraLight';
+        color: rgb(250, 241, 224);
+        text-decoration: none;
+        background-color: rgb(39, 39, 39);
         border-radius: 30px;
         transition: all 0.3s ease; 
     }
@@ -987,222 +999,160 @@ body {
 
 @media (max-width: 450px) {
   .navbarContainer {
-    position: fixed;
-    z-index: 20;
-    justify-content: center;
-    display: flex;
-    gap: 2px;
-    background-color: rgb(26, 25, 25);
-    width: 100%;
-    box-sizing: border-box; 
-    padding: 15px 0px;
+    gap: 6px; 
+    padding: 30px 0px;
+    padding-bottom: 15px;
 
     }
-  #name {
-    margin: 0px 0px;
-    margin-right:0px;
-    padding: 0px 0px;
-    white-space: nowrap;
-    font-family: 'PoppinsExtraLight';
-    font-weight: bold;
-    font-size:14px;
-    color: rgb(250, 241, 224);
-    text-decoration: none;
-    transition: all 0.3s ease;  
+    #name {
+    align-items: center;
+    position: absolute;
+    font-size:24px;
+    top:10%;
     }
     .navbar {
 
-    cursor: pointer;
-    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-    font-size:7px;
-    color: rgb(250, 241, 224);
-    text-decoration: none;
-    background-color: rgb(39, 39, 39);
+    font-size:14px;
     padding: 5px 10px;
-    border-radius: 30px;
-    transition: all 0.3s ease;
+    margin-top:23px;
     }
     .board {
     
-    display: flex;
-    flex-direction: column; 
-    position: fixed;
-    z-index: 12;
-    width: 100%;
-    margin-top: -300px;
-    border-radius: 80px;
     background-color: rgb(22, 22, 22);
-    height:520px;
-    transition: all 1s ease;
-    overflow: hidden;
+    height:540px;
 
+    }
+
+    .space {
+        margin-bottom: 405px;
     }
 
     .about {
-        margin:2px;
-        color: aliceblue;
-        font-size: 6px;
-        padding-right: 0.5%;
-        font-family: 'PoppinsExtraLight';
+        margin:1px;
+        font-size: 10.5px;
+        width: 90%;
+        padding-left: 17px;
     }
 
     .moreAbout {
-        cursor: pointer;
-        font-family: 'PoppinsExtraLight';
-        font-size:8px;
-        width: 20%;
+        font-size:12px;
         margin-top: 5px;
-        margin-left: 39%;
-        align-items: center;
-        color: rgb(250, 241, 224);
-        text-decoration: none;
-        background-color: rgb(39, 39, 39);
-        padding: 7px 7px;
-        border-radius: 30px;
-        transition: all 0.3s ease; 
+        margin-left: 35%;
+        padding-left: 0px;
+        padding: 5px 20px;
     }
-    .boardAbout .moreAbout {
-    cursor: pointer;
-    font-family: 'PoppinsExtraLight';
-    font-size:10px;
-    width: 20%;
-    margin-top: 5px;
-    margin-left: 39%;
-    align-items: center;
-    color: rgb(39, 39, 39);
-    text-decoration: none;
-    background-color: rgba(250, 241, 224, 0.548);
-    padding: 7px 7px;
-    border-radius: 30px;
-    transition: all 0.3s ease; 
-}
+
+    .moreExperience {
+        max-width: 30%;
+        font-size:12px;
+        margin-top: 1px;
+        margin-left: 30.8%;
+        padding-left: 0px;
+        padding: 2px 15px;
+    }
+
+    .spaceContact {
+        margin-bottom: 425px;
+    }
     .contact {
-        padding-top: 0px;
-        margin:2px;
-        color: aliceblue;
-        font-size: 6px;
-        padding-right: 0.5%;
-        font-family: 'PoppinsExtraLight';
+        margin:1px;
+        font-size: 10.5px;
+        width: 90%;
+        padding-left: 17px;
     }
 
     .moreContact {
-        padding-top: 10px;
-        cursor: pointer;
-        font-family: 'PoppinsExtraLight';
-        font-size:8px;
-        width: 20%;
-        margin-top: 5px;
-        margin-left: 39%;
-        align-items: center;
-        color: rgb(250, 241, 224);
-        text-decoration: none;
-        background-color: rgb(39, 39, 39);
-        padding: 7px 7px;
-        border-radius: 30px;
-        transition: all 0.3s ease; 
+        min-width: 40%;
+        font-size:12px;
+        margin-top: 10px;
+        margin-left: 30%;
+        padding-left: 0px;
+        padding: 2px 0px;
     }
+    
+
+
     .navbarAbout {
-        position: fixed;
-        z-index: 20;
-        justify-content: center;
-        display: flex;
-        gap: 2px;
-        background-color: rgb(197, 191, 182); 
-        transition: background-color 0.5s ease-in-out;
+        gap: 6px; 
+        padding: 30px 0px;
+        padding-bottom: 15px;
     }
 
 
     .navbarAbout #name {
-    margin: 0px 0px;
-    margin-right:0px;
-    padding: 0px 0px;
-    white-space: nowrap;
-    font-family: 'PoppinsExtraLight';
-    font-weight: bold;
-    font-size:14px;
-    color: rgb(17, 17, 17);
-    text-decoration: none;
-    transition: all 0.3s ease;  
+    align-items: center;
+    position: absolute;
+    font-size:24px;
+    top:10%;
 }
 
     .navbarAbout .navbar {
 
-    cursor: pointer;
-    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-    color: rgb(39, 39, 39);
-    font-size:7px;
-    text-decoration: none;
+    font-size:14px;
     padding: 5px 10px;
-    border-radius: 30px;
-    background-color: rgb(250, 241, 224);
-    transition: all 0.3s ease;
+    margin-top:23px;
 }
 
     .boardAbout {
-    display: flex;
-    flex-direction: column; 
-    position: fixed;
-    z-index: 12;
-    width: 100%;
-    margin-top: -300px;
-    border-radius: 80px;
-    background-color: rgb(163, 159, 152);
-    height:520px;
-    transition: all 1s ease;
-    overflow: hidden;
+        background-color: rgb(163, 159, 152);
+        height:540px;
+
 
 }
 
     .boardAbout .about {
-    margin:2px;
-    font-weight: bold;
-    color: rgb(39, 39, 39);
-    font-size: 6px;
-    padding-right: 0.5%;
-    font-family: 'PoppinsExtraLight';
+        font-weight: bold;
+        color: rgb(39, 39, 39);
+        margin:1px;
+        font-size: 10.5px;
+        width: 90%;
+        padding-left: 17px;
 }
 
     .boardAbout .moreAbout {
-    cursor: pointer;
-    font-family: 'PoppinsExtraLight';
-    font-size:8px;
-    width: 20%;
-    margin-top: 5px;
-    margin-left: 39%;
-    align-items: center;
+    font-weight: bold;
     color: rgb(39, 39, 39);
-    text-decoration: none;
     background-color: rgba(250, 241, 224, 0.548);
-    padding: 7px 7px;
-    border-radius: 30px;
-    transition: all 0.3s ease; 
-
+    font-size:12px;
+    margin-top: 5px;
+    margin-left: 35%;
+    padding-left: 0px;
+    padding: 5px 20px;
 
 }
-    .boardAbout .contact {
-        padding-top: 0px;
-        margin:2px;
-        font-size: 6px;
+
+
+   .boardAbout .moreExperience {
         font-weight: bold;
         color: rgb(39, 39, 39);
-        padding-right: 0.5%;
-        font-family: 'PoppinsExtraLight';
+        background-color: rgba(250, 241, 224, 0.548);
+        max-width: 30%;
+        font-size:12px;
+        margin-top: 1px;
+        margin-left: 30.8%;
+        padding-left: 0px;
+        padding: 2px 15px;
+    }
+
+    .boardAbout .contact {
+        font-weight: bold;
+        color: rgb(39, 39, 39);
+        margin:1px;
+        font-size: 10.5px;
+        width: 90%;
+        padding-left: 17px;
     }
 
     .boardAbout .moreContact {
-        padding-top: 10px;
-        cursor: pointer;
-        font-family: 'PoppinsExtraLight';
-        font-size:8px;
-        width: 20%;
-        margin-top: 5px;
-        margin-left: 39%;
-        align-items: center;
+        font-weight: bold;
         color: rgb(39, 39, 39);
-        text-decoration: none;
         background-color: rgba(250, 241, 224, 0.548);
-        padding: 7px 7px;
-        border-radius: 30px;
+        min-width: 40%;
+        font-size:12px;
+        margin-top: 10px;
+        margin-left: 30%;
+        padding-left: 0px;
+        padding: 2px 0px;
     }
 
 }

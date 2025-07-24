@@ -34,7 +34,7 @@ function Body() {
                 {<motion.div 
                     className={styles.circle1}
                     variants={{
-                        hidden: {x: -275,y: -275,  rotate: -25 },
+                        hidden: {x: -175,y: -65,  rotate: -25 },
                         visible: { x: 0, y: 0,  rotate: 0}
                     }}
                     initial="hidden"
@@ -51,7 +51,7 @@ function Body() {
                 {<motion.div 
                     className={styles.circle2}
                     variants={{
-                        hidden: {x: -275,y: -275, rotate: -25},
+                        hidden: {x: -175,y: -65, rotate: -25},
                         visible: { x: 0, y: 0, rotate: 0}
                     }}
                     initial="hidden"
@@ -69,7 +69,7 @@ function Body() {
                 {<motion.div 
                     className={styles.circle3}
                     variants={{
-                        hidden: {x: -275,y: -275, rotate: -25},
+                        hidden: {x: -175,y: -65, rotate: -25},
                         visible: { x: 0, y: 0, rotate: 0}
                     }}
                     initial="hidden"
