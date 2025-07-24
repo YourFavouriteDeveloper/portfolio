@@ -24,7 +24,7 @@ html, body {
 .container {
   margin: 0;
   background-color: rgb(39, 39, 39);
-  min-height: 230vh; 
+  min-height: 145rem; 
   position: relative;
   z-index: -30;
   overflow-x: hidden;
@@ -36,14 +36,14 @@ html, body {
 
 
 .information {
-  position: absolute;
+  position: relative;
   align-items: center;
   justify-content: space-between;
   z-index: 10;
   margin-left: 10%;
   margin-top: -1%;
   width:80%;
-  height: 195vh;
+  height: 118rem;
   background-color: rgb(26, 25, 25);
   border-radius: 6vh;
 }
@@ -114,19 +114,170 @@ li {
 }
 
 
-@media (max-width: 1280px) {
 
+
+
+@media (max-width: 1460px) {
+.information {
+  height: 120rem;
+  border-radius: 5vh;
+  width:86%;
+  margin-left: 7%;
+}
+
+  .container {
+  min-height: 145rem; 
+}
+}
+
+
+@media (max-width: 1280px) {
+.experienceTitle {
+  padding-top: 6.5vw;
+}
+
+.information {
+  height: 120rem;
+  border-radius: 5vh;
+  width:86%;
+  margin-left: 7%;
+}
+
+.afterInitial {
+    margin-top: 28px;
+}
+.container {
+  min-height: 145rem; 
+}
 }
 
 @media (max-width: 1024px) {
+.experienceTitle {
+  padding-top: 11.5vw;
+}
+
+.information {
+  height: 210vw;
+  border-radius: 5vh;
+  width:86%;
+  margin-left: 7%;
+}
+
+.afterInitial {
+    margin-top: 25px;
+}
+.container {
+  min-height: 250vw; 
+}
+}
+
+
+
+@media (max-width: 768px) {
+.experienceTitle {
+  padding-top: 19vw;
+}
+
+.information {
+  height: 210vw;
+  border-radius: 5vh;
+  width:86%;
+  margin-left: 7%;
+}
+
+.title {     
+  font-size: clamp(2.8vh, 4vw, 3.125rem);
+  padding-top: 3vh;
+  padding-left: 3vw;
+  right: -0.7rem;
 
 }
 
-@media (max-width: 768px) {
+.subtitle {        
+  font-size: clamp(1rem, 2.5vw, 1.875rem);
+  max-width: 1000px;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.subsubtitle {     
+  font-size: clamp(1.4vh, 2vw, 1.25rem);
+  max-width: 480px;
+  text-align: left;
+  top: -10%;
+  padding-left: 8px;
+}
+
+li {
+    width: 98%;
+    border-radius: 33px;
+    margin-left: 1.4vw;
+    right: 2rem;
+    padding: 5px 10px;
+    padding-bottom: 15px;
+}
+
+.afterInitial {
+    margin-top: 25px;
+}
+
+.container {
+  min-height: 270vw; 
+}
 
 }
 
 @media (max-width: 580px) {
+.experienceTitle {
+  padding-top: 24vw;
+}
+
+.information {
+  min-height: 165vh;
+  border-radius: 4vh;
+  width:90%;
+  margin-left: 5%;
+}
+
+.title {     
+  font-size: clamp(3vh, 4vw, 3.125rem);
+  padding-top: 2.4vh;
+  padding-left: 3vw;
+  right: -1rem;
+
+}
+
+.subtitle {        
+  font-size: clamp(1rem, 2.5vw, 1.875rem);
+  max-width: 1000px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.subsubtitle {     
+  font-size: clamp(1.4vh, 2vw, 1.25rem);
+  min-width: 330px;
+  text-align: left;
+  top: -10%;
+  padding-left: 14px;
+}
+
+li {
+    width: 98%;
+    border-radius: 25px;
+    margin-left: 1.4vw;
+    right: 2rem;
+    padding: 5px 10px;
+    padding-bottom: 15px;
+}
+
+.afterInitial {
+    margin-top: 20px;
+}
+
+.container {
+  min-height: 200vh; 
+}
 
 }
 
@@ -137,7 +288,7 @@ li {
 }
 
 .information {
-  height: 155vh;
+  min-height: 145vh;
   border-radius: 4vh;
   width:90%;
   margin-left: 5%;
@@ -164,8 +315,7 @@ li {
   text-align: left;
   top: -10%;
   padding-left: 1px;
-  font-family: 'PoppinsExtraLight';
-  z-index: 10;
+
 
 
 }
@@ -187,7 +337,7 @@ li {
 }
 
 .container {
-  min-height: 185vh; 
+  min-height: 175vh; 
 }
 
 }
