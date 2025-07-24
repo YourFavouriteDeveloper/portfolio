@@ -20,7 +20,7 @@ html, body {
 .title {
   margin: 0px;
   color: rgb(245, 239, 227) ;         
-  font-size: 120px;
+  font-size: clamp(2.5rem, 8vw, 7.5rem);
   white-space: nowrap;
   padding-top: 140px;
   font-family: 'PoppinsExtraLight';
@@ -30,11 +30,14 @@ html, body {
 }
 
 .subtitle {
-  display: block;
+  display: inline-block;
   margin: 0px;
+  align-items: center;
+  justify-content: center;
   color: rgb(245, 239, 227) ;         
-  font-size: 20px;
-  padding: 0px 300px;
+  font-size: clamp(0.875rem, 1.5vw, 1.25rem);
+  max-width: 70%;
+  padding: 0px 50px;
   padding-bottom: 20px;
   position: relative;
   font-family: 'PoppinsExtraLight';
@@ -47,36 +50,39 @@ html, body {
 .buttons {
     display: flex;
     justify-content: center;
-
-    gap: 100px;
+    position: relative;
+    gap: 6.25rem;
     z-index: 19;
     align-items: center;
+    left:-17px;
 }
 
 .button .mail {
     margin-top: 50px;
-    width:150px;
+    width: 9.375rem;
     z-index: 19;
     transition: all 0.3s ease;
+    position: relative;
+    left:21.5px;
 }
 
 .button .gitlab {
     margin-top: 50px;
-    width:95px;
+    width: 5.9375rem;
     z-index: 19;
     transition: all 0.3s ease;
 }
 
 .button .linkedin {
     margin-top: 50px;
-    width:90px;
+    width: 5.625rem;
     z-index: 19;
     transition: all 0.3s ease;
 }
 
 .button .whatsapp {
     margin-top: 50px;
-    width:110px;
+    width: 6.875rem;
     z-index: 19;
     transition: all 0.3s ease;
 }
@@ -90,37 +96,164 @@ html, body {
 
 
 
-@media (max-width: 1800px) {
-
-}
 
 
-@media (max-width: 1500px) {
+@media (max-width: 1580px) {
 
 
 }
 
 
-@media (max-width: 1300px) {
-
-}
-
-@media (max-width: 1100px) {
+@media (max-width: 1280px) {
 
 }
 
 
-@media (max-width: 900px) {
+
+@media (max-width: 1024px) {
+
+    .container {
+  padding-top: 30px;
+  min-height: 90vh; 
+
+  
+}
+
+.subtitle {        
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+  min-width: 90%;
+  padding: 0px 5px;
+}
+
+.buttons {
+  position: relative;
+    gap: 5rem;
+    left:-21.5px;
+}
+
+.button .mail {
+  position: relative;
+    margin-top: 50px;
+    width: 10rem;
+    left:29px;
 
 }
 
-
-@media (max-width: 650px) {
-
+.button .gitlab {
+    margin-top: 50px;
+    width: 5.7rem;
 
 }
 
-@media (max-width: 580px) {
+.button .linkedin {
+    margin-top: 50px;
+    width: 5.3rem;
 
+}
+
+.button .whatsapp {
+    margin-top: 50px;
+    width: 6.3rem;
+
+}
+}
+
+
+@media (max-width: 768px) {
+
+  .container {
+  padding-top: 40px;
+
+  
+}
+
+.subtitle {        
+  font-size: clamp(0.7rem, 1.5vw, 1.25rem);
+  min-width: 80%;
+  padding: 0px 5px;
+}
+
+.buttons {
+  position: relative;
+    gap: 2rem;
+    left:-15px;
+}
+
+.button .mail {
+  position: relative;
+    margin-top: 50px;
+    width: 6.8rem;
+    left:17px;
+
+}
+
+.button .gitlab {
+    margin-top: 50px;
+    width: 4rem;
+
+}
+
+.button .linkedin {
+    margin-top: 50px;
+    width: 3.7rem;
+
+}
+
+.button .whatsapp {
+    margin-top: 50px;
+    width: 4.5rem;
+
+}
+}
+
+
+
+
+@media (max-width: 450px) {
+
+
+.container {
+  padding-top: 70px;
+
+  
+}
+
+.subtitle {        
+  font-size: clamp(0.7rem, 1.5vw, 1.25rem);
+  min-width: 90%;
+  padding: 0px 5px;
+}
+
+.buttons {
+  position: relative;
+    gap: 1rem;
+    left:-10px;
+}
+
+.button .mail {
+  position: relative;
+    margin-top: 50px;
+    width: 5rem;
+    left:10px;
+
+}
+
+.button .gitlab {
+    margin-top: 50px;
+    width: 3rem;
+
+}
+
+.button .linkedin {
+    margin-top: 50px;
+    width: 2.8rem;
+
+}
+
+.button .whatsapp {
+    margin-top: 50px;
+    width: 3.6rem;
+
+}
 
 }
