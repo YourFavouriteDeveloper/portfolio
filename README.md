@@ -6,9 +6,10 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 [Visit My Portfolio](https://yourfavouritedeveloper.github.io/portfolio/)
 
 ##  Preview
-![Portfolio Screenshot](/portfolio-app/src/assets/home.png)
-![Portfolio Screenshot](/portfolio-app/src/assets/about.png)
-![Portfolio Screenshot](/portfolio-app/src/assets/experience.png)
+![Home](https://raw.githubusercontent.com/yourfavouritedeveloper/portfolio/main/public/home.png)  
+![About](https://raw.githubusercontent.com/yourfavouritedeveloper/portfolio/main/public/about.png)  
+![Experience](https://raw.githubusercontent.com/yourfavouritedeveloper/portfolio/main/public/experience.png)
+
 ---
 
 ## Tech Stack
