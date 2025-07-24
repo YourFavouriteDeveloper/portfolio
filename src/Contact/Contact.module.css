@@ -203,8 +203,8 @@ html, body {
 
 
 .container {
-  padding-top: 70px;
-  max-height: 110vh; 
+  padding-top: 60px;
+  max-height: 100vh; 
   
 }
 
@@ -222,26 +222,26 @@ html, body {
 
 .button .mail {
   position: relative;
-    margin-top: 50px;
+    margin-top: 30px;
     width: 5rem;
     left:10px;
 
 }
 
 .button .gitlab {
-    margin-top: 50px;
+    margin-top: 30px;
     width: 3rem;
 
 }
 
 .button .linkedin {
-    margin-top: 50px;
+    margin-top: 30px;
     width: 2.8rem;
 
 }
 
 .button .whatsapp {
-    margin-top: 50px;
+    margin-top: 30px;
     width: 3.6rem;
 
 }
