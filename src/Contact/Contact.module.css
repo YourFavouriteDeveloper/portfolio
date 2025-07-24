@@ -98,23 +98,13 @@ html, body {
 
 
 
-@media (max-width: 1580px) {
-
-
-}
-
-
-@media (max-width: 1280px) {
-
-}
-
 
 
 @media (max-width: 1024px) {
 
     .container {
   padding-top: 30px;
-  min-height: 90vh; 
+  min-height: 110vh; 
 
   
 }
@@ -163,7 +153,7 @@ html, body {
 
   .container {
   padding-top: 40px;
-
+  min-height: 120vh; 
   
 }
 
@@ -214,7 +204,7 @@ html, body {
 
 .container {
   padding-top: 70px;
-
+  max-height: 110vh; 
   
 }
 
