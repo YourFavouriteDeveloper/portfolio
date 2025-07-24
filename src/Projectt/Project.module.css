@@ -474,7 +474,7 @@ html, body {
 
 .link {
     top: 22.5rem;
-    left:-12vh;
+    left:-12.5vh;
     font-size: clamp(0.8rem, 2.5vw, 1.875rem);
     width: 50%;
     margin-top: 6%;
