@@ -137,7 +137,7 @@ li {
 }
 
 .information {
-  height: 145vh;
+  height: 155vh;
   border-radius: 4vh;
   width:90%;
   margin-left: 5%;
@@ -187,7 +187,7 @@ li {
 }
 
 .container {
-  min-height: 175vh; 
+  min-height: 185vh; 
 }
 
 }
